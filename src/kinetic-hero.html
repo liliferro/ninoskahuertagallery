@@ -1,0 +1,321 @@
+<title>Ninoska Huerta Kinetic Hero</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+@font-face{font-family:'Jost';src:url(data:font/woff2;base64,{{JOST}}) format('woff2');font-weight:100 900;font-style:normal;font-display:swap}
+@font-face{font-family:'IBM Plex Mono';src:url(data:font/woff2;base64,{{MONO}}) format('woff2');font-weight:400;font-style:normal;font-display:swap}
+/* Layout: full-bleed kinetic field (canvas) behind a quiet left-bottom text block; header on top, pause + credit at the foot.
+   Single dark look by choice: the gallery's night ground, so the chromatic lamellae carry the colour. */
+:root{
+  color-scheme:dark;
+  --ground:#121212;      /* near-black wall */
+  --ink:#EDEDEB;         /* text on ground */
+  --muted:#B3B3B3;       /* NH gray, metadata on dark (8.6:1) */
+  --red:#ED2224;         /* NH red: one moment only */
+  --line:rgba(237,237,235,.28);
+  --scrim:rgba(14,14,14,.86);
+  --f-d:'Jost','Futura','Century Gothic',system-ui,sans-serif;
+  --f-m:'IBM Plex Mono',ui-monospace,Menlo,Consolas,monospace;
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--f-d);-webkit-font-smoothing:antialiased;overflow:hidden}
+.hero{position:relative;height:100%;min-height:560px;overflow:hidden;isolation:isolate}
+canvas#field{position:absolute;inset:0;width:100%;height:100%;display:block;z-index:0}
+.scrim{position:absolute;inset:0;z-index:1;pointer-events:none;
+  background:
+    linear-gradient(90deg,var(--scrim) 0%,rgba(14,14,14,.72) 30%,rgba(14,14,14,.18) 58%,rgba(14,14,14,0) 72%),
+    linear-gradient(0deg,rgba(14,14,14,.82) 0%,rgba(14,14,14,0) 26%),
+    linear-gradient(180deg,rgba(14,14,14,.78) 0%,rgba(14,14,14,0) 16%)}
+.wrap{position:relative;z-index:2;height:100%;display:flex;flex-direction:column;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0;pointer-events:none}
+.wrap a,.wrap button{pointer-events:auto}
+header{display:flex;align-items:center;gap:28px;padding:22px clamp(0px,2.4vw,24px) 0}
+.logo{display:block;width:clamp(170px,19vw,236px);aspect-ratio:372.61/85.65;background:url({{LOGO}}) center/contain no-repeat}
+header nav{display:flex;gap:26px;margin-left:auto}
+header nav a,.lbl{font:500 11px/16px var(--f-d);letter-spacing:.2em;text-transform:uppercase;color:var(--ink);text-decoration:none}
+header nav a{padding:6px 0;border-bottom:2px solid transparent;opacity:.86}
+header nav a:hover{opacity:1;border-bottom-color:var(--muted)}
+.btn{display:inline-flex;align-items:center;gap:10px;height:44px;padding:0 22px;font:500 11px/16px var(--f-d);letter-spacing:.2em;text-transform:uppercase;text-decoration:none;border:1px solid transparent;transition:background-color .15s,color .15s,border-color .15s}
+.btn.primary{background:var(--ink);color:#161616}
+.btn.primary:hover{background:transparent;color:var(--ink);border-color:var(--ink)}
+.btn.ghost{color:var(--ink);border-color:rgba(237,237,235,.55)}
+.btn.ghost:hover{border-color:var(--ink)}
+.menu{display:none;width:44px;height:44px;margin-left:auto;align-items:center;justify-content:center;color:var(--ink);background:transparent;border:1px solid rgba(237,237,235,.4);cursor:pointer;padding:0}
+.mnav{position:absolute;left:0;right:0;top:0;bottom:0;z-index:5;pointer-events:auto;background:#121212;display:flex;flex-direction:column;gap:6px;
+  padding:84px max(16px,env(safe-area-inset-right,0px)) 32px max(16px,env(safe-area-inset-left,0px))}
+.mnav a:not(.btn){font:300 32px/1.25 var(--f-d);letter-spacing:0;text-transform:none;color:var(--ink);text-decoration:none;padding:6px 0;border-bottom:1px solid rgba(237,237,235,.12)}
+.mnav .btn{margin-top:22px;align-self:flex-start}
+header{position:relative;z-index:6}
+[hidden]{display:none!important}
+.content{margin-top:auto;padding:0 clamp(0px,2.4vw,24px) 26px;max-width:640px}
+.eyebrow{display:flex;align-items:center;gap:10px;margin:0 0 18px}
+.eyebrow .dot{width:8px;height:8px;border-radius:50%;background:var(--red);flex:none}
+.frame{display:flex;gap:22px;margin:0 0 22px}
+.br{width:16px;flex:none;border:1.5px solid rgba(179,179,179,.75)}
+.br.l{border-right:0}.br.r{border-left:0}
+h1{margin:0;padding:18px 0;font:300 clamp(46px,7.2vw,104px)/.98 var(--f-d);letter-spacing:-.02em;text-wrap:balance}
+.lead{margin:0 0 26px;font:400 clamp(16px,1.35vw,19px)/1.55 var(--f-d);color:var(--ink);max-width:34em}
+.lead span{color:var(--muted)}
+.ctas{display:flex;gap:12px;flex-wrap:wrap}
+.foot{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;padding:14px clamp(0px,2.4vw,24px) 18px;border-top:1px solid rgba(237,237,235,.14)}
+.pause{display:inline-flex;align-items:center;gap:10px;background:rgba(18,18,18,.6);color:var(--ink);border:1px solid rgba(237,237,235,.4);height:36px;padding:0 14px;font:400 11px/16px var(--f-m);letter-spacing:.04em;cursor:pointer}
+.pause:hover{border-color:var(--ink)}
+.pause svg{flex:none}
+.credit{margin:0;font:400 11px/16px var(--f-m);color:var(--muted)}
+:focus-visible{outline:2px solid #FF5A5C;outline-offset:3px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+@media (max-width:900px){header nav a:nth-child(n+4){display:none}}
+@media (max-width:767px){
+  header nav,.head-cta{display:none}
+  .menu{display:inline-flex}
+  header{padding-top:14px}
+  .scrim{background:linear-gradient(0deg,rgba(14,14,14,.92) 0%,rgba(14,14,14,.78) 42%,rgba(14,14,14,.2) 70%,rgba(14,14,14,.5) 100%)}
+  .content{padding-bottom:18px}
+  .frame{gap:14px}.br{width:12px}
+  .credit{flex-basis:100%}
+  .eyebrow{letter-spacing:.12em;font-size:10px}
+}
+</style>
+
+<div class="hero">
+  <canvas id="field" aria-hidden="true"></canvas>
+  <div class="scrim" aria-hidden="true"></div>
+  <div class="wrap">
+    <header>
+      <a class="logo" href="https://ninoskahuertagallery.com/" aria-label="Ninoska Huerta Gallery, home"></a>
+      <nav aria-label="Main">
+        <a href="https://ninoskahuertagallery.com/exhibitions/">Exhibitions</a><a href="https://ninoskahuertagallery.com/artists/">Artists</a><a href="https://ninoskahuertagallery.com/shop/">Shop</a><a href="https://ninoskahuertagallery.com/about-2/">About</a><a href="https://ninoskahuertagallery.com/contact/">Contact</a>
+      </nav>
+      <a class="btn ghost head-cta" href="https://ninoskahuertagallery.com/contact/">Book a visit</a>
+      <button class="menu" id="menuBtn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mnav"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="square"><path id="mi" d="M4 8h16M4 16h16"/></svg></button>
+    </header>
+    <nav class="mnav" id="mnav" aria-label="Main (mobile)" hidden>
+      <a href="https://ninoskahuertagallery.com/exhibitions/">Exhibitions</a><a href="https://ninoskahuertagallery.com/artists/">Artists</a><a href="https://ninoskahuertagallery.com/shop/">Shop</a><a href="https://ninoskahuertagallery.com/about-2/">About</a><a href="https://ninoskahuertagallery.com/contact/">Contact</a>
+      <a class="btn primary" href="https://ninoskahuertagallery.com/contact/">Book a visit</a>
+    </nav>
+
+    <section class="content" aria-labelledby="t">
+      <p class="eyebrow lbl"><span class="dot" aria-hidden="true"></span>Constructivism · Abstraction · Kinetic Art</p>
+      <div class="frame"><span class="br l" aria-hidden="true"></span><h1 id="t">The eye takes part.</h1><span class="br r" aria-hidden="true"></span></div>
+      <p class="lead">Venezuelan and Latin American kinetic, optical and constructive art, from the masters to new voices. <span>Coral Gables, Miami · Visits by appointment.</span></p>
+      <div class="ctas"><a class="btn primary" href="https://ninoskahuertagallery.com/exhibitions/">See current exhibition</a><a class="btn ghost" href="https://ninoskahuertagallery.com/contact/">Book a visit</a></div>
+    </section>
+
+    <div class="foot">
+      <button class="pause" id="pause" type="button" aria-pressed="false">
+        <svg id="pi" width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><rect x="2" y="1.5" width="2.5" height="9" fill="currentColor"/><rect x="7.5" y="1.5" width="2.5" height="9" fill="currentColor"/></svg>
+        <span id="pl">Pausar movimiento</span>
+      </button>
+      <p class="credit">Efecto cinético inspirado en el lenguaje de Cruz-Diez y Soto</p>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+  'use strict';
+  var cv = document.getElementById('field');
+  var ctx = cv.getContext('2d', {alpha:false});
+  var btn = document.getElementById('pause'), lbl = document.getElementById('pl'), ico = document.getElementById('pi');
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)');
+
+  // Complementary pairs for the two faces of each lamella (left face / right face).
+  var PAIRS = [
+    ['#D9262B','#2E9A62'],  // red / green
+    ['#2B4FC2','#EE8A24'],  // blue / orange
+    ['#B8317A','#4FAE6A'],  // magenta / green
+    ['#EE8A24','#2B4FC2'],  // orange / blue (inverted rhythm)
+    ['#2E9A62','#D9262B']   // green / red
+  ];
+  var NEUTRAL = ['#E8E6E1','#1E1E1E'];
+  function hex(h){h=h.replace('#','');return [parseInt(h.slice(0,2),16),parseInt(h.slice(2,4),16),parseInt(h.slice(4,6),16)];}
+  function rgba(c,k,a){return 'rgba('+Math.round(c[0]*k)+','+Math.round(c[1]*k)+','+Math.round(c[2]*k)+','+a+')';}
+
+  // 1-px-tall row buffers: everything purely vertical is drawn once per frame on a row, then stretched to full height.
+  var row = document.createElement('canvas'), rctx = row.getContext('2d');
+  var grat = document.createElement('canvas'), gctx = grat.getContext('2d');
+  var W=0,H=0,dpr=1,mobile=false,N=64,slats=[],p1=7,p2=7.3,ang=6*Math.PI/180,R=130,AMP=13,frameMs=1000/60;
+
+  function build(){
+    mobile = window.innerWidth < 768;
+    N = mobile ? 30 : Math.max(44, Math.min(72, Math.round(W/22)));
+    p1 = mobile ? 9 : 7;
+    p2 = p1 * 1.042;                     // 4.2% spacing difference
+    ang = (mobile ? 5 : 6) * Math.PI/180;// plus a 5–6° tilt → moiré
+    R = mobile ? 90 : 130;
+    AMP = mobile ? 9 : 13;
+    frameMs = 1000 / (mobile ? 30 : 60);
+    slats = [];
+    for (var i=0;i<=N;i++){
+      // modules of 8: colour pairs alternate slat by slat, the module shifts the sequence; one neutral (white/black) lamella per module
+      var g = (i + Math.floor(i/8)*2) % PAIRS.length, p = PAIRS[g];
+      var neutral = (i % 8 === 7);
+      var L = neutral ? NEUTRAL[0] : p[0], Rr = neutral ? NEUTRAL[1] : p[1];
+      slats.push({L:hex(L), R:hex(Rr)});
+    }
+  }
+
+  function resize(){
+    var r = cv.getBoundingClientRect();
+    W = Math.max(1, r.width); H = Math.max(1, r.height);
+    dpr = Math.min(window.devicePixelRatio || 1, window.innerWidth < 768 ? 1.5 : 2);
+    cv.width = Math.round(W*dpr); cv.height = Math.round(H*dpr);
+    ctx.setTransform(dpr,0,0,dpr,0,0);
+    row.width = grat.width = cv.width; row.height = grat.height = 1;
+    rctx.setTransform(dpr,0,0,1,0,0); gctx.setTransform(dpr,0,0,1,0,0);
+    build();
+    if (!running) draw(performance.now());
+  }
+
+  // Viewer state: target from pointer, smoothed slowly.
+  var tx=.38, ty=.5, sx=.38, sy=.5, mx=-9999, my=-9999, rip=0, ripT=0, lastMove=-1e9, inside=false;
+  function onMove(e){
+    var r = cv.getBoundingClientRect();
+    mx = e.clientX - r.left; my = e.clientY - r.top;
+    tx = Math.min(1, Math.max(0, mx / W)); ty = Math.min(1, Math.max(0, my / H));
+    lastMove = performance.now(); inside = true;
+    if (!running && !paused) start();
+  }
+  window.addEventListener('pointermove', onMove, {passive:true});
+  document.addEventListener('pointerleave', function(){inside=false;});
+  window.addEventListener('blur', function(){inside=false;});
+
+  function draw(now){
+    var t = now/1000;
+    var idle = (now - lastMove) > 4000 || !inside;
+    if (idle){                                   // no pointer: very slight oscillation
+      tx = .42 + .16*Math.sin(t*.11);
+      ty = .5 + .08*Math.sin(t*.07);
+    }
+    var ease = running ? .035 : 1;               // slow follow
+    sx += (tx - sx)*ease; sy += (ty - sy)*ease;
+    ripT = (!idle && inside) ? 1 : 0;
+    rip += (ripT - rip)*(running ? .05 : 1);
+
+    // ---------- Layer 1: Physichromie lamellae ----------
+    var cw = W / N;
+    var vx = W*(sx*1.3 - .15);                   // viewer position along the wall
+    var k = (cw*.78) / (W*1.15);                 // depth/(Z-depth): face width per px of offset, unsaturated across the wall
+    var shear = (sy - .5)*.34;                   // subtle vertical perspective
+    var i, x0, tan0, tan1, aR, aL, g;
+    rctx.fillStyle = '#121212'; rctx.fillRect(0,0,W,1);
+    // reflected colour in each gap: right face of blade i mixes with left face of blade i+1
+    for (i=0;i<N;i++){
+      x0 = i*cw;
+      tan0 = Math.max(-1, Math.min(1, (x0 - vx)/(W*.9)));
+      tan1 = Math.max(-1, Math.min(1, (x0 + cw - vx)/(W*.9)));
+      aR = .24 + .38*Math.max(0, -tan0);         // viewer right of blade i sees its right face lit
+      aL = .24 + .38*Math.max(0, tan1);
+      g = rctx.createLinearGradient(x0,0,x0+cw,0);
+      g.addColorStop(0, rgba(slats[i].R,1,aR));
+      g.addColorStop(.5, rgba([(slats[i].R[0]+slats[i+1].L[0])/2,(slats[i].R[1]+slats[i+1].L[1])/2,(slats[i].R[2]+slats[i+1].L[2])/2],1,(aR+aL)*.32));
+      g.addColorStop(1, rgba(slats[i+1].L,1,aL));
+      rctx.fillStyle = g; rctx.fillRect(x0,0,cw+.5,1);
+    }
+    ctx.imageSmoothingEnabled = false;
+    ctx.drawImage(row, 0,0,row.width,1, 0,0,W,H);
+    // the faces of the blades, projected toward the viewer
+    for (i=0;i<=N;i++){
+      x0 = i*cw;
+      var f = (x0 - vx)*k;
+      f = Math.max(-cw*.86, Math.min(cw*.86, f));
+      var c = f > 0 ? slats[i].L : slats[i].R;
+      var lit = .66 + .34*Math.min(1, Math.abs(f)/(cw*.7));
+      var ft = f*(1 - shear), fb = f*(1 + shear);
+      ctx.fillStyle = rgba(c, lit, 1);
+      ctx.beginPath(); ctx.moveTo(x0,0); ctx.lineTo(x0+ft,0); ctx.lineTo(x0+fb,H); ctx.lineTo(x0,H); ctx.closePath(); ctx.fill();
+      // edge of the blade (thin light line at its tip) and its root shadow
+      ctx.strokeStyle = 'rgba(255,255,255,'+(.10 + .18*Math.min(1,Math.abs(f)/cw))+')';
+      ctx.lineWidth = 1;
+      ctx.beginPath(); ctx.moveTo(x0+ft,0); ctx.lineTo(x0+fb,H); ctx.stroke();
+      ctx.strokeStyle = 'rgba(0,0,0,.55)'; ctx.lineWidth = 1.2;
+      ctx.beginPath(); ctx.moveTo(x0,0); ctx.lineTo(x0,H); ctx.stroke();
+    }
+
+    // fine vertical grating fixed to the wall (moves with the lamellae)
+    var o1 = -((sx - .5)*28) % p1;
+    gctx.clearRect(0,0,W,1); gctx.fillStyle = 'rgba(8,8,8,.5)';
+    var lw = p1*.32;
+    for (var x = o1 - p1; x < W + p1; x += p1){ gctx.fillRect(x - lw/2, 0, lw, 1); }
+    ctx.drawImage(grat, 0,0,grat.width,1, 0,0,W,H);
+
+    // ---------- Layer 2: Chromointerférence / Soto vibration ----------
+    var ca = Math.cos(ang), sa = Math.sin(ang);        // line direction d=(sa,ca); normal n=(ca,-sa)
+    var cx = W/2, cy = H/2;
+    var o2 = -((sx - .5)*11) - ((sy - .5)*6);           // parallax: slower than layer 1
+    var span = Math.sqrt(W*W + H*H)/2 + p2*2;
+    // cursor in rotated space (u along normal, v along line)
+    var pmx = (rip > .01) ? mx : -1e5, pmy = (rip > .01) ? my : -1e5;
+    var cu = (pmx - cx)*ca - (pmy - cy)*sa, cvv = (pmx - cx)*sa + (pmy - cy)*ca;
+    var A = AMP*rip, R2 = R*R, step = mobile ? 10 : 7;
+    ctx.strokeStyle = 'rgba(236,234,229,.36)'; ctx.lineWidth = mobile ? 1.2 : 1.05;
+    ctx.beginPath();
+    var start = Math.floor((-span - o2)/p2), end = Math.ceil((span - o2)/p2);
+    for (var n = start; n <= end; n++){
+      var u = n*p2 + o2;
+      var du = u - cu;
+      if (A < .2 || Math.abs(du) > R*2.4){               // far from cursor: straight line
+        ctx.moveTo(cx + u*ca + (-span)*sa, cy - u*sa + (-span)*ca);
+        ctx.lineTo(cx + u*ca + span*sa,    cy - u*sa + span*ca);
+        continue;
+      }
+      var first = true;
+      for (var v = -span; v <= span + step; v += step){
+        var dv = v - cvv, d2 = du*du + dv*dv, push = 0;
+        if (d2 < R2*6){
+          var e = Math.exp(-d2/R2);
+          // opens the lines like a soft penetrable + a faint ring
+          push = (du >= 0 ? 1 : -1)*A*e + A*.18*Math.exp(-d2/(R2*3))*Math.sin(Math.sqrt(d2)*.07 - t*1.4);
+        }
+        var uu = u + push;
+        var px = cx + uu*ca + v*sa, py = cy - uu*sa + v*ca;
+        if (first){ ctx.moveTo(px,py); first=false; } else ctx.lineTo(px,py);
+      }
+    }
+    ctx.stroke();
+  }
+
+  // ---------- loop, pause, reduced motion ----------
+  var running=false, paused=false, raf=0, last=0;
+  function loop(now){
+    if (!running) return;
+    raf = requestAnimationFrame(loop);
+    if (now - last < frameMs - 1) return;      // fps cap (30 on small screens)
+    last = now; draw(now);
+  }
+  function start(){ if (running || paused || document.hidden) return; running = true; last = 0; raf = requestAnimationFrame(loop); }
+  function stop(){ running = false; cancelAnimationFrame(raf); }
+  function setPaused(p){
+    paused = p; btn.setAttribute('aria-pressed', String(p));
+    lbl.textContent = p ? 'Activar movimiento' : 'Pausar movimiento';
+    ico.innerHTML = p ? '<path d="M3 1.5v9l7-4.5z" fill="currentColor"/>' : '<rect x="2" y="1.5" width="2.5" height="9" fill="currentColor"/><rect x="7.5" y="1.5" width="2.5" height="9" fill="currentColor"/>';
+    if (p){ stop(); draw(performance.now()); } else start();
+  }
+  btn.addEventListener('click', function(){ setPaused(!paused); });
+
+  // Links: '_top' navigates the page that embeds this iframe (use on the gallery's own site);
+  // '_blank' opens a new tab (safe inside sandboxed previews). Change this one value when embedding.
+  var LINK_TARGET = '_blank';
+  document.querySelectorAll('.wrap a[href^="http"]').forEach(function(a){ a.target = LINK_TARGET; if (LINK_TARGET === '_blank') a.rel = 'noopener'; });
+
+  // Mobile menu
+  var mb = document.getElementById('menuBtn'), mnav = document.getElementById('mnav'), mi = document.getElementById('mi');
+  function setMenu(open){
+    mnav.hidden = !open; mb.setAttribute('aria-expanded', String(open));
+    mb.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+    mi.setAttribute('d', open ? 'M6 6l12 12M18 6L6 18' : 'M4 8h16M4 16h16');
+    if (open) mnav.querySelector('a').focus();
+  }
+  mb.addEventListener('click', function(){ setMenu(mnav.hidden); });
+  document.addEventListener('keydown', function(e){ if (e.key === 'Escape' && !mnav.hidden){ setMenu(false); mb.focus(); } });
+  mnav.addEventListener('click', function(e){ if (e.target.closest('a')) setMenu(false); });
+  window.addEventListener('resize', function(){ if (window.innerWidth >= 768 && !mnav.hidden) setMenu(false); });
+  document.addEventListener('visibilitychange', function(){ if (document.hidden) stop(); else if (!paused) start(); });
+  if (reduce.addEventListener) reduce.addEventListener('change', function(e){ setPaused(e.matches); });
+
+  var ro = new ResizeObserver(function(){ resize(); });
+  ro.observe(cv);
+  resize();
+  if (reduce.matches) setPaused(true); else start();
+})();
+</script>

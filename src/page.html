@@ -1,0 +1,623 @@
+<title>Ninoska Huerta Gallery</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+@font-face{font-family:'Jost';src:url(data:font/woff2;base64,{{JOST}}) format('woff2');font-weight:100 900;font-display:swap}
+@font-face{font-family:'Newsreader';src:url(data:font/woff2;base64,{{NEWS}}) format('woff2');font-weight:200 800;font-style:normal;font-display:swap}
+@font-face{font-family:'Newsreader';src:url(data:font/woff2;base64,{{NEWSI}}) format('woff2');font-weight:200 800;font-style:italic;font-display:swap}
+@font-face{font-family:'IBM Plex Mono';src:url(data:font/woff2;base64,{{MONO}}) format('woff2');font-weight:400;font-display:swap}
+/* Layout: a white-cube gallery site. Home opens on the dark kinetic field; every other view is white walls,
+   charcoal ink, one red per view. Single light look by choice (gallery walls), dark only inside the hero. */
+:root{
+  color-scheme:light;
+  --ground:#FFFFFF; --alt:#F5F5F3; --ph:#EAEAE8; --night:#121212;
+  --ink:#333333; --muted:#6B6B6B; --line:#E3E3E0; --strong:#8A8A8A;
+  --red:#ED2224; --rink:#C8181B; --gray:#B3B3B3; --on-dark:#EDEDEB;
+  --f-d:'Jost','Futura','Century Gothic',system-ui,sans-serif;
+  --f-s:'Newsreader','Georgia',serif;
+  --f-m:'IBM Plex Mono',ui-monospace,Menlo,Consolas,monospace;
+  --gut:max(16px,env(safe-area-inset-left,0px));
+  --gutR:max(16px,env(safe-area-inset-right,0px));
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--f-d);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+[hidden]{display:none!important}
+a{color:inherit}
+img{max-width:100%;display:block}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--rink);outline-offset:3px}
+.lbl{font:500 11px/16px var(--f-d);letter-spacing:.2em;text-transform:uppercase}
+.mono{font-family:var(--f-m);font-size:13px;line-height:20px;color:var(--muted);font-variant-numeric:tabular-nums}
+.serif{font-family:var(--f-s)}
+.it{font-family:var(--f-s);font-style:italic}
+.wrap{max-width:1240px;margin:0 auto;padding-left:var(--gut);padding-right:var(--gutR)}
+@media (min-width:768px){.wrap{padding-left:max(32px,env(safe-area-inset-left,0px));padding-right:max(32px,env(safe-area-inset-right,0px))}}
+.btn{white-space:nowrap;display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:46px;padding:0 24px;font:500 11px/16px var(--f-d);letter-spacing:.2em;text-transform:uppercase;text-decoration:none;border:1px solid transparent;cursor:pointer;background:none;transition:background-color .15s,color .15s,border-color .15s}
+.btn.dark{background:var(--ink);color:#fff;border-color:var(--ink)}
+.btn.dark:hover{background:#fff;color:var(--ink)}
+.btn.line{border-color:var(--strong);color:var(--ink)}
+.btn.line:hover{border-color:var(--ink)}
+.btn.light{background:var(--on-dark);color:#161616}
+.btn.light:hover{background:transparent;color:var(--on-dark);border-color:var(--on-dark)}
+.btn.ghost{color:var(--on-dark);border-color:rgba(237,237,235,.55)}
+.btn.ghost:hover{border-color:var(--on-dark)}
+.btn[disabled]{opacity:.45;cursor:not-allowed}
+.tlink{display:inline-flex;align-items:center;gap:8px;text-decoration:none;border-bottom:1px solid var(--strong);padding-bottom:2px}
+.tlink:hover{color:var(--rink);border-color:currentColor}
+.br-frame{display:flex;gap:20px}
+.br{width:16px;flex:none;border:1.5px solid var(--gray)}
+.br.l{border-right:0}.br.r{border-left:0}
+
+/* ---------- header ---------- */
+.site-h{position:sticky;top:env(safe-area-inset-top,0px);z-index:40;background:rgba(255,255,255,.97);border-bottom:1px solid var(--line);transition:background-color .2s,border-color .2s}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:41;background:#fff}
+.site-h .bar{display:flex;align-items:center;gap:28px;height:76px}
+.logo{display:block;width:clamp(168px,17vw,220px);aspect-ratio:372.61/85.65;background:url({{LOGO}}) center/contain no-repeat;flex:none}
+.hnav{display:flex;gap:26px;margin-left:auto}
+.hnav a{font:500 11px/16px var(--f-d);letter-spacing:.2em;text-transform:uppercase;text-decoration:none;padding:6px 0;border-bottom:2px solid transparent}
+.hnav a:hover{border-bottom-color:var(--strong)}
+.hnav a[aria-current="page"]{border-bottom-color:var(--red)}
+.hicons{display:flex;align-items:center;gap:6px}
+.iconbtn{position:relative;display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border:0;background:none;cursor:pointer;text-decoration:none;color:inherit}
+.count{position:absolute;top:4px;right:2px;min-width:18px;height:18px;padding:0 5px;border-radius:9px;background:var(--red);color:#fff;font:500 10px/18px var(--f-m);text-align:center}
+.menu-btn{display:none}
+/* over the dark hero */
+body.on-hero .site-h{background:transparent;border-color:transparent;color:var(--on-dark)}
+body.on-hero .site-h .logo{background-image:url({{LOGO_R}})}
+body.on-hero::before{background:var(--night)}
+body.route-home .site-h{position:fixed;left:0;right:0}
+body.route-home main{padding-top:0}
+
+/* mobile nav */
+.mnav{position:fixed;inset:0;z-index:60;background:#fff;color:var(--ink);display:flex;flex-direction:column;padding:calc(env(safe-area-inset-top,0px) + 18px) var(--gutR) 32px var(--gut);overflow-y:auto}
+.mnav .top{display:flex;align-items:center;justify-content:space-between;margin-bottom:28px}
+.mnav nav{display:flex;flex-direction:column}
+.mnav nav a{font:300 32px/1.3 var(--f-d);text-decoration:none;padding:8px 0;border-bottom:1px solid var(--line)}
+.mnav .btn{margin-top:26px;align-self:flex-start}
+.mnav .mono{margin-top:auto;padding-top:24px}
+
+/* ---------- hero ---------- */
+.hero{position:relative;height:100svh;min-height:600px;max-height:1100px;overflow:hidden;isolation:isolate;background:var(--night);color:var(--on-dark)}
+.hero canvas{position:absolute;inset:0;width:100%;height:100%;display:block;z-index:0}
+.hero .scrim{position:absolute;inset:0;z-index:1;pointer-events:none;background:
+  linear-gradient(90deg,rgba(14,14,14,.86) 0%,rgba(14,14,14,.72) 30%,rgba(14,14,14,.18) 58%,rgba(14,14,14,0) 72%),
+  linear-gradient(0deg,rgba(14,14,14,.82) 0%,rgba(14,14,14,0) 26%),
+  linear-gradient(180deg,rgba(14,14,14,.78) 0%,rgba(14,14,14,0) 18%)}
+.hero .inner{position:relative;z-index:2;height:100%;display:flex;flex-direction:column;justify-content:flex-end;pointer-events:none}
+.hero .inner a,.hero .inner button{pointer-events:auto}
+.hero .content{max-width:640px;padding-bottom:28px}
+.eyebrow{display:flex;align-items:center;gap:10px;margin:0 0 18px}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--red);flex:none;display:inline-block}
+.hero .br{border-color:rgba(179,179,179,.75)}
+.hero h1{margin:0;padding:18px 0;font:300 clamp(46px,7.2vw,104px)/.98 var(--f-d);letter-spacing:-.02em;text-wrap:balance}
+.hero .lead{margin:22px 0 26px;font:400 clamp(16px,1.35vw,19px)/1.55 var(--f-d);max-width:34em}
+.hero .lead span{color:var(--gray)}
+.ctas{display:flex;gap:12px;flex-wrap:wrap}
+.hero .foot{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;padding:14px 0 18px;border-top:1px solid rgba(237,237,235,.14)}
+.pause{display:inline-flex;align-items:center;gap:10px;background:rgba(18,18,18,.6);color:var(--on-dark);border:1px solid rgba(237,237,235,.4);height:36px;padding:0 14px;font:400 11px/16px var(--f-m);cursor:pointer}
+.pause:hover{border-color:var(--on-dark)}
+.credit{margin:0;font:400 11px/16px var(--f-m);color:var(--gray)}
+
+/* ---------- sections ---------- */
+section.s{padding:96px 0;border-top:1px solid var(--line)}
+section.s.alt{background:var(--alt)}
+.kicker{display:flex;align-items:center;gap:10px;margin:0 0 14px;color:var(--ink)}
+h2{font:300 clamp(34px,4.4vw,56px)/1.06 var(--f-d);letter-spacing:-.01em;margin:0 0 28px;text-wrap:balance}
+h3{font:400 clamp(22px,2vw,26px)/1.25 var(--f-d);margin:0 0 10px;text-wrap:balance}
+.prose{font:400 18px/1.7 var(--f-s);max-width:66ch}
+.prose p{margin:0 0 1.1em}
+.prose .lead{font-size:22px;line-height:1.55}
+.sig{font:italic 400 20px/1.4 var(--f-s);margin-top:8px}
+.grid2{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:56px;align-items:start}
+.grid2.wide{grid-template-columns:minmax(0,1.15fr) minmax(0,1fr)}
+.sec-head{display:flex;align-items:end;justify-content:space-between;gap:24px;flex-wrap:wrap;margin-bottom:36px}
+.sec-head h2{margin:0}
+.page-head{padding:72px 0 40px}
+.page-head h1{font:300 clamp(44px,6vw,84px)/1 var(--f-d);letter-spacing:-.02em;margin:0 0 16px}
+.page-head p{max-width:46em;color:var(--muted);margin:0}
+
+/* image slots (images load from the gallery's media; a quiet vibration pattern stands in if one can't load) */
+.img{position:relative;background:var(--ph);overflow:hidden}
+.img img{width:100%;height:100%;object-fit:cover}
+.img.contain img{object-fit:contain;background:var(--alt)}
+.img.noimg img{display:none}
+.img.noimg::after{content:attr(data-label);position:absolute;inset:0;display:flex;align-items:flex-end;padding:12px;font:400 11px/15px var(--f-m);color:var(--muted);
+  background:repeating-linear-gradient(90deg,transparent 0 9px,rgba(51,51,51,.08) 9px 10px)}
+
+/* featured exhibition */
+.feat-imgs{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.feat-imgs .img{aspect-ratio:1}
+.feat-imgs .img:first-child{grid-column:span 3;aspect-ratio:16/10}
+.feat-imgs .img img{object-fit:cover}
+
+/* artists */
+.artists{columns:3;column-gap:48px;margin:0;padding:0;list-style:none}
+.artists li{break-inside:avoid;border-bottom:1px solid var(--line)}
+.artists a{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:12px 0;text-decoration:none;font:300 22px/1.3 var(--f-d)}
+.artists a span{font:400 11px/16px var(--f-m);color:var(--muted);opacity:0;transition:opacity .15s}
+.artists a:hover{color:var(--rink)}.artists a:hover span{opacity:1}
+.feature-box{border:1px solid var(--line);padding:32px;background:#fff}
+
+/* exhibitions */
+.exh-list{list-style:none;margin:0;padding:0;border-top:1px solid var(--ink)}
+.exh{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr) minmax(0,1.2fr) auto;gap:24px;padding:22px 0;border-bottom:1px solid var(--line);align-items:start}
+.exh h3{margin:0 0 4px;font-size:22px}
+.exh .who{color:var(--ink);font-size:15px}
+.exh p{margin:0;font:400 16px/1.55 var(--f-s);color:var(--ink)}
+.exh .tlink{white-space:nowrap;font-size:13px}
+.exh.big{grid-template-columns:minmax(0,1fr);border:1px solid var(--line);padding:28px;background:#fff}
+.exh-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.exh-cards .card{border:1px solid var(--line);background:#fff;padding:26px;display:flex;flex-direction:column;gap:10px}
+.exh-cards .card p{font:400 16px/1.55 var(--f-s);margin:0}
+.exh-cards .card .tlink{margin-top:auto;align-self:flex-start}
+.now{display:inline-flex;align-items:center;gap:8px}
+
+/* shop */
+.filters{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:28px}
+.chip{height:38px;padding:0 16px;border:1px solid var(--line);background:#fff;cursor:pointer;font:500 11px/16px var(--f-d);letter-spacing:.14em;text-transform:uppercase}
+.chip[aria-pressed="true"]{background:var(--ink);color:#fff;border-color:var(--ink)}
+.sort{margin-left:auto;display:flex;align-items:center;gap:8px}
+select{height:38px;border:1px solid var(--strong);background:#fff;font:400 14px var(--f-d);padding:0 10px;border-radius:0;color:var(--ink)}
+.products{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:32px 24px}
+.pcard{display:flex;flex-direction:column;gap:8px;text-decoration:none}
+.pcard .img{aspect-ratio:1;margin-bottom:6px}
+.pcard .art{font:500 11px/16px var(--f-d);letter-spacing:.2em;text-transform:uppercase}
+.pcard .t{font:italic 400 18px/1.35 var(--f-s)}
+.pcard .p{font:400 14px/20px var(--f-m)}
+.pcard:hover .t{text-decoration:underline;text-underline-offset:3px}
+.pcard .add{margin-top:6px;align-self:flex-start}
+
+/* product */
+.product{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:56px;align-items:start;padding:40px 0 96px}
+.gallery .main{aspect-ratio:1}
+.thumbs{display:flex;gap:8px;margin-top:8px;flex-wrap:wrap}
+.thumbs button{width:72px;height:72px;padding:0;border:1px solid var(--line);cursor:pointer;background:var(--ph)}
+.thumbs button[aria-current="true"]{border-color:var(--ink)}
+.thumbs .img{width:100%;height:100%}
+.crumbs{font:400 12px/18px var(--f-m);color:var(--muted);margin:0 0 18px}
+.crumbs a{text-decoration:none}
+.product h1{font:300 clamp(34px,4vw,52px)/1.05 var(--f-d);margin:6px 0 12px}
+.price{font:400 22px/1 var(--f-m);margin:14px 0 26px}
+.specs{display:grid;grid-template-columns:150px 1fr;gap:8px 18px;padding:18px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin:0 0 26px;font:400 14px/1.5 var(--f-m)}
+.specs dt{color:var(--muted)}.specs dd{margin:0;color:var(--ink)}
+.qty{display:inline-flex;align-items:center;border:1px solid var(--strong);height:46px}
+.qty button{width:40px;height:100%;border:0;background:none;cursor:pointer;font-size:18px}
+.qty input{width:46px;height:100%;border:0;text-align:center;font:400 15px var(--f-m);color:var(--ink);background:none;-moz-appearance:textfield}
+.qty input::-webkit-outer-spin-button,.qty input::-webkit-inner-spin-button{-webkit-appearance:none}
+.buy{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.note{font:400 13px/1.55 var(--f-d);color:var(--muted);margin:18px 0 0}
+
+/* cart drawer */
+.scrim-cart{position:fixed;inset:0;background:rgba(18,18,18,.45);z-index:70}
+.drawer{position:fixed;top:0;right:0;bottom:0;width:min(440px,100vw);background:#fff;z-index:71;display:flex;flex-direction:column;
+  padding:calc(env(safe-area-inset-top,0px) + 18px) var(--gutR) calc(env(safe-area-inset-bottom,0px) + 20px) 24px;box-shadow:-20px 0 40px rgba(0,0,0,.12)}
+.drawer .top{display:flex;align-items:center;justify-content:space-between;padding-bottom:14px;border-bottom:1px solid var(--line)}
+.drawer h2{font-size:28px;margin:0}
+.lines{flex:1;overflow-y:auto;padding:8px 0}
+.line{display:grid;grid-template-columns:72px minmax(0,1fr) auto;gap:14px;padding:14px 0;border-bottom:1px solid var(--line);align-items:start}
+.line .img{width:72px;height:72px}
+.line .t{font:italic 400 16px/1.3 var(--f-s);margin:0}
+.line .a{font:500 10px/14px var(--f-d);letter-spacing:.18em;text-transform:uppercase;margin:0 0 2px}
+.line .qty{height:34px;margin-top:8px}.line .qty button{width:32px}.line .qty input{width:34px;font-size:13px}
+.line .rm{border:0;background:none;padding:0;font:400 12px var(--f-m);color:var(--muted);text-decoration:underline;cursor:pointer;margin-top:6px}
+.line .p{font:400 14px var(--f-m);text-align:right}
+.empty{padding:40px 0;color:var(--muted)}
+.totals{border-top:1px solid var(--ink);padding-top:14px}
+.totals .row{display:flex;justify-content:space-between;font:400 15px var(--f-m);margin-bottom:6px}
+.totals .row.big{font-size:18px;color:var(--ink)}
+.totals .note{margin:4px 0 14px}
+.totals .btn{width:100%}
+
+/* toast + modal */
+.toast{position:fixed;left:50%;bottom:calc(env(safe-area-inset-bottom,0px) + 22px);transform:translateX(-50%);background:var(--ink);color:#fff;padding:12px 18px;font:400 13px var(--f-d);z-index:80;display:flex;gap:16px;align-items:center;max-width:calc(100vw - 32px)}
+.toast button{background:none;border:0;color:#fff;text-decoration:underline;cursor:pointer;font:500 11px/16px var(--f-d);letter-spacing:.18em;text-transform:uppercase}
+.modal{position:fixed;inset:0;z-index:90;background:rgba(18,18,18,.55);display:flex;align-items:center;justify-content:center;padding:16px}
+.modal .box{background:#fff;max-width:520px;width:100%;padding:32px}
+.modal h3{font-size:26px}
+
+/* about */
+.photos{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin-top:56px}
+.photos figure{margin:0}
+.photos .img{aspect-ratio:4/5}
+.photos figcaption{font:400 12px/1.5 var(--f-m);color:var(--muted);margin-top:8px}
+.facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:40px}
+.facts div{border:1px solid var(--line);padding:22px;background:#fff}
+.facts b{display:block;font:300 28px/1.1 var(--f-d);margin-bottom:6px}
+
+/* blog */
+.posts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.post{border-top:1px solid var(--ink);padding-top:18px;display:flex;flex-direction:column;gap:10px}
+.post h3{font-size:22px}
+.post p{margin:0;font:400 16px/1.6 var(--f-s)}
+.post .tlink{margin-top:auto;align-self:flex-start;font-size:13px}
+
+/* videos + newsletter */
+.vid{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:32px;align-items:center}
+.news{background:var(--ink);color:var(--on-dark);padding:72px 0}
+.news h2{color:#fff}
+.news form{display:flex;gap:10px;flex-wrap:wrap;max-width:560px}
+.news input{flex:1 1 260px;height:48px;border:1px solid rgba(237,237,235,.5);background:transparent;color:#fff;padding:0 14px;font:400 15px var(--f-d)}
+.news input::placeholder{color:#B3B3B3}
+.news .msg{font:400 14px var(--f-d);color:var(--on-dark);margin:14px 0 0}
+
+/* contact */
+.contact{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:64px;padding:0 0 96px}
+.cinfo dl{margin:0;display:grid;gap:22px}
+.cinfo dt{font:500 11px/16px var(--f-d);letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
+.cinfo dd{margin:0;font:300 22px/1.35 var(--f-d)}
+.cinfo dd a{text-decoration:none;border-bottom:1px solid var(--strong)}
+.copy{margin-left:10px;border:1px solid var(--line);background:#fff;font:400 11px var(--f-m);padding:3px 8px;cursor:pointer;vertical-align:middle}
+form.cform{display:grid;gap:18px}
+.field{display:flex;flex-direction:column;gap:6px}
+.field label{font:500 11px/16px var(--f-d);letter-spacing:.2em;text-transform:uppercase}
+.field input,.field textarea{border:1px solid var(--strong);border-radius:0;padding:12px 14px;font:400 16px/1.5 var(--f-d);color:var(--ink);background:#fff}
+.field textarea{min-height:150px;resize:vertical}
+.field .err{font:400 12px var(--f-m);color:var(--rink)}
+.formmsg{font:400 15px/1.5 var(--f-d);background:var(--alt);padding:14px 16px;margin:0}
+
+/* footer */
+footer.site-f{background:var(--night);color:var(--on-dark);padding:64px 0 calc(env(safe-area-inset-bottom,0px) + 28px)}
+.fgrid{display:grid;grid-template-columns:minmax(0,1.3fr) repeat(3,minmax(0,1fr));gap:40px}
+.flogo{width:220px;aspect-ratio:372.61/85.65;background:url({{LOGO_R}}) left center/contain no-repeat;display:block;margin-bottom:18px}
+footer h4{font:500 11px/16px var(--f-d);letter-spacing:.2em;text-transform:uppercase;color:var(--gray);margin:0 0 14px}
+footer ul{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+footer a{text-decoration:none}footer a:hover{text-decoration:underline}
+footer p{margin:0 0 8px;font-size:15px}
+.fbottom{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;border-top:1px solid rgba(237,237,235,.14);margin-top:48px;padding-top:18px;font:400 12px var(--f-m);color:var(--gray)}
+
+
+/* migrated content */
+.agrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:28px 20px}
+.acard{text-decoration:none;display:flex;flex-direction:column;gap:10px}
+.acard .img{aspect-ratio:1;filter:grayscale(1);transition:filter .3s}
+.acard:hover .img{filter:none}
+.acard .n{font:300 20px/1.25 var(--f-d)}
+.acard:hover .n{color:var(--rink)}
+.cards3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px 24px}
+.ccard{display:flex;flex-direction:column;gap:10px;text-decoration:none}
+.ccard .img{aspect-ratio:4/3}
+.ccard h3{font-size:21px;margin:4px 0 0}
+.ccard p{margin:0;font:400 15.5px/1.6 var(--f-s)}
+.ccard:hover h3{color:var(--rink)}
+.vgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:20px}
+.vbox{position:relative;aspect-ratio:16/9;background:#161616;color:#EDEDEB;overflow:hidden}
+.vbox iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.vbox button{position:absolute;inset:0;width:100%;border:0;cursor:pointer;color:#EDEDEB;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;
+  background:repeating-linear-gradient(90deg,rgba(237,237,235,.06) 0 1px,transparent 1px 9px),#161616;font:500 11px/16px var(--f-d);letter-spacing:.2em;text-transform:uppercase}
+.vbox button:hover svg{transform:scale(1.08)}
+.vbox svg{transition:transform .2s}
+.vlink{font:400 12px var(--f-m);color:var(--muted);margin-top:6px;display:inline-block}
+.vid-intro{margin-bottom:48px;max-width:760px}
+.rich h2{font:300 34px/1.15 var(--f-d);margin:48px 0 16px}
+.rich h3{font:400 24px/1.3 var(--f-d);margin:36px 0 12px}
+.rich h4,.rich h5,.rich h6{font:500 12px/18px var(--f-d);letter-spacing:.2em;text-transform:uppercase;margin:28px 0 10px}
+.rich ul{padding-left:20px;margin:0 0 1.1em}.rich li{margin:4px 0}
+.rich blockquote{margin:24px 0;padding:0 0 0 22px;border-left:1.5px solid var(--gray);font-style:italic}
+.gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:18px;margin:28px 0 36px;max-width:none}
+.gal figure{margin:0}
+.gal button{display:block;width:100%;padding:0;border:0;background:none;cursor:zoom-in}
+.gal .img{aspect-ratio:1}
+.gal .img img{object-fit:contain;background:var(--alt)}
+.gal figcaption{font:400 12.5px/1.5 var(--f-m);color:var(--muted);margin-top:8px}
+.gal.one{grid-template-columns:minmax(0,1fr)}.gal.one .img{aspect-ratio:auto;max-height:80vh}.gal.one .img img{height:auto;max-height:80vh}
+.artist-head{display:grid;grid-template-columns:minmax(0,320px) minmax(0,1fr);gap:48px;align-items:end;padding:64px 0 40px;border-bottom:1px solid var(--line);margin-bottom:40px}
+.artist-head .img{aspect-ratio:1}
+.artist-head h1{font:300 clamp(44px,6vw,84px)/1 var(--f-d);letter-spacing:-.02em;margin:0 0 12px}
+.pager{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;border-top:1px solid var(--line);margin-top:56px;padding-top:22px}
+.pager a{text-decoration:none;max-width:45%}.pager a:hover{color:var(--rink)}
+.pager small{display:block;font:500 11px/16px var(--f-d);letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.post-head{padding:56px 0 28px;max-width:900px}
+.post-head h1{font:300 clamp(36px,5vw,68px)/1.05 var(--f-d);letter-spacing:-.015em;margin:10px 0 14px;text-wrap:balance}
+.post-hero{margin:0 0 40px}.post-hero .img{aspect-ratio:16/9}.post-hero .img img{object-fit:contain;background:var(--alt)}
+.lb{position:fixed;inset:0;z-index:95;background:rgba(14,14,14,.94);display:flex;align-items:center;justify-content:center;padding:56px 16px}
+.lb img{max-width:100%;max-height:100%;object-fit:contain}
+.lb .x{position:absolute;top:calc(env(safe-area-inset-top,0px) + 10px);right:max(10px,env(safe-area-inset-right,0px));color:#fff}
+.lb .nav{position:absolute;top:50%;transform:translateY(-50%);color:#fff;background:none;border:0;font-size:34px;cursor:pointer;padding:12px}
+.lb .prev{left:max(6px,env(safe-area-inset-left,0px))}.lb .next{right:max(6px,env(safe-area-inset-right,0px))}
+.lb figcaption{position:absolute;left:0;right:0;bottom:calc(env(safe-area-inset-bottom,0px) + 14px);text-align:center;color:#B3B3B3;font:400 12px var(--f-m);padding:0 16px}
+@media (max-width:980px){.cards3{grid-template-columns:repeat(2,minmax(0,1fr))}.artist-head{grid-template-columns:minmax(0,1fr);gap:24px}.artist-head .img{max-width:320px}}
+@media (max-width:767px){.cards3{grid-template-columns:minmax(0,1fr)}.agrid{grid-template-columns:repeat(2,minmax(0,1fr))}.gal{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* responsive */
+@media (max-width:1100px){.products{grid-template-columns:repeat(3,minmax(0,1fr))}.photos{grid-template-columns:repeat(3,minmax(0,1fr))}.hnav{gap:18px}}
+@media (max-width:980px){
+  .hnav{display:none}.menu-btn{display:inline-flex}.hicons{margin-left:auto}
+  .grid2,.grid2.wide,.product,.contact{grid-template-columns:minmax(0,1fr);gap:36px}
+  .artists{columns:2}
+  .exh{grid-template-columns:minmax(0,1fr);gap:8px}
+  .exh-cards,.posts{grid-template-columns:minmax(0,1fr)}
+  .fgrid{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+  .facts{grid-template-columns:minmax(0,1fr)}
+}
+@media (max-width:767px){
+  section.s{padding:64px 0}
+  .site-h .bar{height:64px;gap:12px}
+  .hero .scrim{background:linear-gradient(0deg,rgba(14,14,14,.92) 0%,rgba(14,14,14,.78) 42%,rgba(14,14,14,.2) 70%,rgba(14,14,14,.55) 100%)}
+  .hero .br{width:12px}.br-frame{gap:14px}
+  .eyebrow.lbl{letter-spacing:.12em;font-size:10px}
+  .credit{flex-basis:100%}
+  .products{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 14px}
+  .photos{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .artists{columns:1}
+  .feat-imgs{grid-template-columns:repeat(2,1fr)}
+  .vid{grid-template-columns:minmax(0,1fr)}
+  .fgrid{grid-template-columns:minmax(0,1fr)}
+  .sort{margin-left:0}
+  .specs{grid-template-columns:110px 1fr}
+}
+</style>
+
+<header class="site-h" id="top">
+  <div class="wrap bar">
+    <a class="logo" href="#home" aria-label="Ninoska Huerta Gallery, home"></a>
+    <nav class="hnav" aria-label="Main">
+      <a href="#about">About</a><a href="#artists">Artists</a><a href="#exhibitions">Exhibitions</a><a href="#shop">Shop</a><a href="#blog">Blog</a><a href="#contact">Contact</a>
+    </nav>
+    <div class="hicons">
+      <button class="iconbtn" id="cartBtn" type="button" aria-label="Open cart, 0 items">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="square"><path d="M5 8h14l-1 12H6z M9 8V6a3 3 0 0 1 6 0v2"/></svg>
+        <span class="count" id="cartCount" hidden>0</span>
+      </button>
+      <button class="iconbtn menu-btn" id="menuBtn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mnav">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="square"><path d="M4 8h16M4 16h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mnav" id="mnav" hidden role="dialog" aria-modal="true" aria-label="Menu">
+  <div class="top"><a class="logo" href="#home" aria-label="Ninoska Huerta Gallery, home" style="background-image:url({{LOGO}})"></a>
+    <button class="iconbtn" id="menuClose" type="button" aria-label="Close menu"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="square"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+  <nav aria-label="Main (mobile)">
+    <a href="#about">About</a><a href="#artists">Artists</a><a href="#exhibitions">Exhibitions</a><a href="#shop">Shop</a><a href="#blog">Blog</a><a href="#contact">Contact</a>
+  </nav>
+  <a class="btn dark" href="#contact">Book a visit</a>
+  <p class="mono">290 Miracle Mile, Coral Gables, FL 33134 · By appointment only<br>+1 305 588 1231 · ninoskahuerta@gmail.com</p>
+</div>
+
+<main id="main">
+
+<!-- ================= HOME ================= -->
+<div data-page="home">
+  <div class="hero" id="hero">
+    <canvas id="field" aria-hidden="true"></canvas>
+    <div class="scrim" aria-hidden="true"></div>
+    <div class="inner wrap">
+      <div class="content">
+        <p class="eyebrow lbl"><span class="dot" aria-hidden="true"></span>Constructivism · Abstraction · Kinetic Art</p>
+        <div class="br-frame"><span class="br l" aria-hidden="true"></span><h1>The eye takes part.</h1><span class="br r" aria-hidden="true"></span></div>
+        <p class="lead">Latin American kinetic, optical and constructive art, from the masters to new voices. <span>Coral Gables, Miami · By appointment only.</span></p>
+        <div class="ctas"><a class="btn light" href="#exhibitions">See exhibitions</a><a class="btn ghost" href="#shop">Visit the shop</a></div>
+      </div>
+      <div class="foot">
+        <button class="pause" id="pause" type="button" aria-pressed="false">
+          <svg id="pi" width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><rect x="2" y="1.5" width="2.5" height="9" fill="currentColor"/><rect x="7.5" y="1.5" width="2.5" height="9" fill="currentColor"/></svg>
+          <span id="pl">Pausar movimiento</span>
+        </button>
+        <p class="credit">Efecto cinético inspirado en el lenguaje de Cruz-Diez y Soto</p>
+      </div>
+    </div>
+  </div>
+
+  <section class="s" style="border-top:0">
+    <div class="wrap grid2">
+      <figure class="monahan" style="margin:0">
+        <div class="img" data-c="monahan" data-label="Peter Monahan, S/T" style="aspect-ratio:16/10"></div>
+        <figcaption class="mono" style="margin-top:10px"><span class="lbl" style="color:var(--ink)">Peter Monahan</span> · <i class="it">S/T</i></figcaption>
+      </figure>
+      <div>
+        <p class="kicker lbl">The gallery</p>
+        <h2>“For those who love innovation and contemporary art”</h2>
+        <div class="prose">
+          <p class="lead">At Ninoska Huerta Gallery, we celebrate creativity, movement, and vision. Our space in Coral Gables, Miami, is dedicated to showcasing groundbreaking works in constructivism, abstraction, and kinetic art—featuring both iconic masters and bold new voices from Latin America and beyond.</p>
+          <p>Here, innovation meets legacy. Discover the vibrant visual language of renowned artists such as Carlos Cruz-Diez and Jesús Soto, alongside the daring proposals of emerging talents who are redefining the boundaries of contemporary art.</p>
+          <a class="tlink" href="#about">Read more about →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="s alt" aria-labelledby="feat">
+    <div class="wrap grid2 wide">
+      <div class="feat-imgs" data-beyond aria-label="Beyond the Visible, works by Marcos Marín"></div>
+      <div>
+        <p class="kicker lbl"><span class="dot" aria-hidden="true"></span>Featured · Marcos Marín</p>
+        <h2 id="feat">Beyond the Visible<br><span class="it" style="font-size:.55em;font-weight:400">The Symbol as Visual Energy</span></h2>
+        <div class="prose">
+          <p>The exhibition presented by Ninoska Huerta Gallery offers an opportunity to enter a lesser known yet extraordinarily revealing territory within Marcos Marín’s artistic research.</p>
+          <p>In 2010, the artist turned his attention to the ancient symbols associated with Feng Shui, a millennia-old Chinese tradition rooted in the pursuit of harmony between the human being, space, and the forces that move through it.</p>
+          <p>Marín does not approach these symbols as ornamental elements or merely as cultural representations. He perceives them as forms charged with meaning and energy, subjecting them to a process of visual transformation. The symbol becomes structure; structure becomes rhythm; and rhythm becomes movement.</p>
+          <p>On paper, Marín reconstructs these signs through a rigorous geometric organization, creating compositions in which symmetry, repetition, and optical interaction generate a distinctive sense of vibration.</p>
+          <p>In this series, the eye does not merely observe: it participates.</p>
+          <p>Each work establishes a dialogue between what we recognize and what our perception can barely decipher. The forms seem to open, shift, and multiply, as if the energy contained within the symbol were finding a new dimension through the language of Op Art.</p>
+          <p>Thus, the ancient and the contemporary converge in a space where the symbol becomes a visual experience and geometry transforms into energy.</p>
+          <p class="sig">Ninoska Huerta</p>
+        </div>
+        <div class="ctas" style="margin-top:22px"><a class="btn dark" href="#artist-marcos-marin-art">Marcos Marín</a><a class="btn line" href="#shop" data-filter="Marcos Marín">Shop his works</a></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="s" aria-labelledby="oa">
+    <div class="wrap">
+      <div class="sec-head"><h2 id="oa">Our artists</h2><a class="tlink" href="#artists">All artists →</a></div>
+      <div class="agrid" data-artist-grid></div>
+      <div class="feature-box" style="margin-top:56px">
+        <div class="grid2">
+          <div class="img" data-c="amalia" data-label="Amalia Pereira" style="aspect-ratio:4/3"></div>
+          <div><p class="kicker lbl">Featured artist</p><h3 style="font-size:34px;font-weight:300;margin-bottom:4px">Amalia Pereira</h3><p class="it" style="font-size:22px;margin:0 0 18px">Poetics of the Intimate Fragment</p>
+          <div class="prose"><p>Amalia Pereira explores collage as a poetic language, integrating photography, drawing, and diverse elements into delicate small-format compositions. With a subtle surrealist sensibility, her work intertwines memory, nature, and the unconscious, creating intimate images that invite contemplation and reveal the beauty within the fragment.</p></div>
+          <a class="tlink" href="#artist-amalia-pereira-art">View the artist →</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="s alt" aria-labelledby="ex">
+    <div class="wrap">
+      <div class="sec-head"><h2 id="ex">Exhibitions</h2><a class="tlink" href="#exhibitions">All exhibitions →</a></div>
+      <div class="cards3" data-exh-latest></div>
+    </div>
+  </section>
+
+  <section class="s" aria-labelledby="st">
+    <div class="wrap">
+      <div class="sec-head"><div><p class="kicker lbl">From our store</p><h2 id="st" style="margin-bottom:10px">Visit our store</h2><p style="margin:0;color:var(--muted)">We have several products that may interest your artistic taste.</p></div><a class="btn dark" href="#shop">Go shop</a></div>
+      <div class="products" data-products-home></div>
+    </div>
+  </section>
+
+  <section class="s alt" aria-labelledby="bl">
+    <div class="wrap">
+      <div class="sec-head"><h2 id="bl">Latest from our blog</h2><a class="tlink" href="#blog">All posts →</a></div>
+      <div class="cards3" data-posts-home></div>
+    </div>
+  </section>
+
+  <section class="s" aria-labelledby="vd">
+    <div class="wrap">
+      <div class="sec-head"><div><p class="kicker lbl">Videos</p><h2 id="vd" style="margin:0">Follow along</h2></div><a class="tlink" href="https://www.youtube.com/channel/UCAxbyWPj5At8foQhLUB0moA" data-ext>YouTube channel →</a></div>
+      <div class="vgrid" data-videos></div>
+    </div>
+  </section>
+</div>
+
+<!-- ================= ABOUT ================= -->
+<div data-page="about" hidden>
+  <div class="wrap page-head"><p class="kicker lbl">About</p><h1>Ninoska Huerta</h1><p class="lbl" style="color:var(--ink)">Connoisseur, Collector, Advisor &amp; Private Art Dealer</p></div>
+  <div class="wrap" style="padding-bottom:96px">
+    <div class="grid2 wide">
+      <div class="img" data-c="aboutPortrait" data-label="Ninoska Huerta" style="aspect-ratio:4/5;position:sticky;top:100px"></div>
+      <div><div class="prose" data-about-text></div>
+        <div class="ctas" style="margin-top:8px"><a class="btn dark" href="#contact">Book a visit</a><a class="btn line" href="#product-soto-y-la-escritura">Soto y la Escritura</a></div></div>
+    </div>
+    <div data-about-media style="margin-top:64px"></div>
+  </div>
+</div>
+
+<!-- ================= ARTISTS ================= -->
+<div data-page="artists" hidden>
+  <div class="wrap page-head"><p class="kicker lbl">Artists</p><h1>Artists</h1></div>
+  <div class="wrap" style="padding-bottom:96px"><div class="agrid" data-artist-grid></div></div>
+</div>
+
+<!-- ================= ARTIST ================= -->
+<div data-page="artist" hidden>
+  <div class="wrap" id="artistView" style="padding-bottom:96px"></div>
+</div>
+
+<!-- ================= EXHIBITIONS ================= -->
+<div data-page="exhibitions" hidden>
+  <div class="wrap page-head"><p class="kicker lbl">Exhibitions</p><h1>Exhibitions</h1></div>
+  <div class="wrap" style="padding-bottom:96px">
+    <div class="vid-intro" data-exh-video></div>
+    <div class="cards3" data-exh-all></div>
+  </div>
+</div>
+
+<!-- ================= SHOP ================= -->
+<div data-page="shop" hidden>
+  <div class="wrap page-head"><p class="kicker lbl">Shop</p><h1>Shop</h1><p>Original works on paper and the book <i class="it">Soto y la Escritura</i>. Each piece is shipped with its documentation.</p></div>
+  <div class="wrap" style="padding-bottom:96px">
+    <div class="filters" role="group" aria-label="Filter products">
+      <button class="chip" type="button" data-f="all" aria-pressed="true">All</button>
+      <button class="chip" type="button" data-f="Marcos Marín" aria-pressed="false">Marcos Marín</button>
+      <button class="chip" type="button" data-f="Karim Borjas" aria-pressed="false">Karim Borjas</button>
+      <button class="chip" type="button" data-f="Books" aria-pressed="false">Books</button>
+      <div class="sort"><label class="lbl" for="sort">Sort</label>
+        <select id="sort"><option value="feat">Featured</option><option value="asc">Price: low to high</option><option value="desc">Price: high to low</option><option value="az">Title: A–Z</option></select></div>
+    </div>
+    <p class="mono" id="pcount" style="margin:0 0 18px"></p>
+    <div class="products" data-products-all></div>
+  </div>
+</div>
+
+<!-- ================= PRODUCT ================= -->
+<div data-page="product" hidden>
+  <div class="wrap"><div class="product" id="productView"></div></div>
+</div>
+
+<!-- ================= BLOG ================= -->
+<div data-page="blog" hidden>
+  <div class="wrap page-head"><p class="kicker lbl">Blog</p><h1>Blog</h1></div>
+  <div class="wrap" style="padding-bottom:96px"><div class="cards3" data-posts-all></div></div>
+</div>
+
+<!-- ================= POST (exhibition or blog article) ================= -->
+<div data-page="post" hidden>
+  <div class="wrap" id="postView" style="padding-bottom:96px"></div>
+</div>
+
+<!-- ================= TERMS ================= -->
+<div data-page="terms" hidden>
+  <div class="wrap page-head"><p class="kicker lbl">Legal</p><h1>Terms and Conditions</h1></div>
+  <div class="wrap" style="padding-bottom:96px"><div class="prose rich" data-terms></div></div>
+</div>
+
+<!-- ================= CONTACT ================= -->
+<div data-page="contact" hidden>
+  <div class="wrap page-head"><p class="kicker lbl"><span class="dot" aria-hidden="true"></span>By appointment only</p><h1>Get in touch</h1><p>Contact us and let us help you choose some great art.</p></div>
+  <div class="wrap contact">
+    <div class="cinfo">
+      <dl>
+        <div><dt>Visit</dt><dd><a href="https://www.google.com/maps/search/?api=1&amp;query=290+Miracle+Mile+Coral+Gables+FL+33134" data-ext>290 Miracle Mile<br>Coral Gables, FL 33134, USA</a></dd></div>
+        <div><dt>Hours</dt><dd>By appointment only</dd></div>
+        <div><dt>Phone</dt><dd><a href="tel:+13055881231">+1 305 588 1231</a><button class="copy" type="button" data-copy="+1 305 588 1231">Copy</button></dd></div>
+        <div><dt>Email</dt><dd><a href="mailto:ninoskahuerta@gmail.com">ninoskahuerta@gmail.com</a><button class="copy" type="button" data-copy="ninoskahuerta@gmail.com">Copy</button></dd></div>
+        <div><dt>Follow</dt><dd style="font-size:18px"><a href="https://www.instagram.com/galleryninoskahuerta/" data-ext>Instagram</a> · <a href="https://www.facebook.com/NinoskaHuertaGallery" data-ext>Facebook</a> · <a href="https://www.youtube.com/channel/UCAxbyWPj5At8foQhLUB0moA" data-ext>YouTube</a></dd></div>
+      </dl>
+    </div>
+    <form class="cform" id="cform" novalidate>
+      <div class="field"><label for="cname">Your name (required)</label><input id="cname" name="name" autocomplete="name" required><span class="err" hidden>Add your name.</span></div>
+      <div class="field"><label for="cemail">Your email (required)</label><input id="cemail" name="email" type="email" autocomplete="email" required><span class="err" hidden>Add an email we can reply to, like name@example.com.</span></div>
+      <div class="field"><label for="csubj">Subject</label><input id="csubj" name="subject" placeholder="A visit, a work, advisory…"></div>
+      <div class="field"><label for="cmsg">Your message</label><textarea id="cmsg" name="message"></textarea></div>
+      <div><button class="btn dark" type="submit">Send message</button></div>
+      <p class="formmsg" id="cformMsg" hidden></p>
+    </form>
+  </div>
+</div>
+
+<!-- ================= NEWSLETTER (all pages) ================= -->
+<section class="news" aria-labelledby="nl">
+  <div class="wrap grid2" style="align-items:center">
+    <div><p class="kicker lbl" style="color:var(--gray)">Newsletter</p><h2 id="nl" style="margin:0">Subscribe to our newsletter</h2></div>
+    <div>
+      <form id="nform" novalidate><label class="sr" for="nemail" style="position:absolute;left:-9999px">Email</label>
+        <input id="nemail" type="email" placeholder="Email" autocomplete="email"><button class="btn light" type="submit">Subscribe</button></form>
+      <p class="msg" id="nmsg" hidden></p>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site-f">
+  <div class="wrap">
+    <div class="fgrid">
+      <div><span class="flogo" role="img" aria-label="Ninoska Huerta Gallery"></span><p style="color:var(--gray)">Constructivism · Abstraction · Kinetic Art</p></div>
+      <div><h4>Get in touch</h4><p>290 Miracle Mile<br>Coral Gables, FL 33134, USA</p><p>By appointment only</p><p><a href="tel:+13055881231">+1 305 588 1231</a><br><a href="mailto:ninoskahuerta@gmail.com">ninoskahuerta@gmail.com</a></p></div>
+      <div><h4>Content</h4><ul><li><a href="#about">About</a></li><li><a href="#artists">Artists</a></li><li><a href="#exhibitions">Exhibitions</a></li><li><a href="#shop">Shop</a></li><li><a href="#blog">Blog</a></li><li><a href="#contact">Contact</a></li><li><a href="#terms">Terms and Conditions</a></li></ul></div>
+      <div><h4>Follow</h4><ul><li><a href="https://www.instagram.com/galleryninoskahuerta/" data-ext>Instagram</a></li><li><a href="https://www.facebook.com/NinoskaHuertaGallery" data-ext>Facebook</a></li><li><a href="https://www.youtube.com/channel/UCAxbyWPj5At8foQhLUB0moA" data-ext>YouTube</a></li></ul></div>
+    </div>
+    <div class="fbottom"><span>© 2026 Ninoska Huerta Gallery · ninoskahuertagallery.com</span><span>Prices in USD</span></div>
+  </div>
+</footer>
+
+<div class="scrim-cart" id="cartScrim" hidden></div>
+<aside class="drawer" id="cart" hidden role="dialog" aria-modal="true" aria-labelledby="cartTitle">
+  <div class="top"><h2 id="cartTitle">Your cart</h2><button class="iconbtn" id="cartClose" type="button" aria-label="Close cart"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="square"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+  <div class="lines" id="cartLines"></div>
+  <div class="totals" id="cartTotals"></div>
+</aside>
+<div class="toast" id="toast" hidden role="status"></div>
+<div class="modal" id="checkoutModal" hidden role="dialog" aria-modal="true" aria-labelledby="coT">
+  <div class="box"><h3 id="coT">Checkout</h3><p id="coBody" style="color:var(--muted)"></p><div class="ctas"><button class="btn dark" type="button" id="coClose">Back to cart</button><a class="btn line" href="#contact" id="coContact">Contact the gallery</a></div></div>
+</div>
+
+<script>
+{{DATA}}
+</script>
+<script>
+{{APP}}
+</script>
