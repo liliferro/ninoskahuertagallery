@@ -1,0 +1,3694 @@
+{
+  "sources": {
+    "https://ninoskahuertagallery.com/wp-content/uploads/2011/12/20140128_203609-scaled.jpg": {
+      "width": 800,
+      "height": 538,
+      "variants": [
+        {
+          "w": 800,
+          "h": 538,
+          "webp": "/media/opt/20140128-203609-scaled-c704c02b/800.webp",
+          "avif": "/media/opt/20140128-203609-scaled-c704c02b/800.avif"
+        }
+      ],
+      "fallback": "/media/opt/20140128-203609-scaled-c704c02b/800.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/carlos-cruz-diez-nh-gallery.jpg": {
+      "width": 600,
+      "height": 600,
+      "variants": [
+        {
+          "w": 600,
+          "h": 600,
+          "webp": "/media/opt/carlos-cruz-diez-nh-gallery-d5afed91/600.webp",
+          "avif": "/media/opt/carlos-cruz-diez-nh-gallery-d5afed91/600.avif"
+        }
+      ],
+      "fallback": "/media/opt/carlos-cruz-diez-nh-gallery-d5afed91/600.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/Rubem-robierb-nh-gallery.jpg": {
+      "width": 600,
+      "height": 600,
+      "variants": [
+        {
+          "w": 600,
+          "h": 600,
+          "webp": "/media/opt/rubem-robierb-nh-gallery-e628f392/600.webp",
+          "avif": "/media/opt/rubem-robierb-nh-gallery-e628f392/600.avif"
+        }
+      ],
+      "fallback": "/media/opt/rubem-robierb-nh-gallery-e628f392/600.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2011/12/presentacion-Maqueta-libro-Cruz-Diez-atelier-Paris-2001..jpg": {
+      "width": 800,
+      "height": 454,
+      "variants": [
+        {
+          "w": 800,
+          "h": 454,
+          "webp": "/media/opt/presentacion-maqueta-libro-cruz-diez-atelier-par-fb11f7ae/800.webp",
+          "avif": "/media/opt/presentacion-maqueta-libro-cruz-diez-atelier-par-fb11f7ae/800.avif"
+        }
+      ],
+      "fallback": "/media/opt/presentacion-maqueta-libro-cruz-diez-atelier-par-fb11f7ae/800.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/jesus-soto-nh-gallery.jpg": {
+      "width": 600,
+      "height": 600,
+      "variants": [
+        {
+          "w": 600,
+          "h": 600,
+          "webp": "/media/opt/jesus-soto-nh-gallery-68385475/600.webp",
+          "avif": "/media/opt/jesus-soto-nh-gallery-68385475/600.avif"
+        }
+      ],
+      "fallback": "/media/opt/jesus-soto-nh-gallery-68385475/600.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/carlos-anzola-nh-gallery.jpg": {
+      "width": 600,
+      "height": 600,
+      "variants": [
+        {
+          "w": 600,
+          "h": 600,
+          "webp": "/media/opt/carlos-anzola-nh-gallery-d6c2fbce/600.webp",
+          "avif": "/media/opt/carlos-anzola-nh-gallery-d6c2fbce/600.avif"
+        }
+      ],
+      "fallback": "/media/opt/carlos-anzola-nh-gallery-d6c2fbce/600.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/marcos-marin-nh-gallery.jpg": {
+      "width": 600,
+      "height": 600,
+      "variants": [
+        {
+          "w": 600,
+          "h": 600,
+          "webp": "/media/opt/marcos-marin-nh-gallery-e5fc6a09/600.webp",
+          "avif": "/media/opt/marcos-marin-nh-gallery-e5fc6a09/600.avif"
+        }
+      ],
+      "fallback": "/media/opt/marcos-marin-nh-gallery-e5fc6a09/600.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/saverio-cecere.jpg": {
+      "width": 600,
+      "height": 600,
+      "variants": [
+        {
+          "w": 600,
+          "h": 600,
+          "webp": "/media/opt/saverio-cecere-19dd43e6/600.webp",
+          "avif": "/media/opt/saverio-cecere-19dd43e6/600.avif"
+        }
+      ],
+      "fallback": "/media/opt/saverio-cecere-19dd43e6/600.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/victor-valera-nh-gallery.jpg": {
+      "width": 600,
+      "height": 600,
+      "variants": [
+        {
+          "w": 600,
+          "h": 600,
+          "webp": "/media/opt/victor-valera-nh-gallery-ee7d4dc7/600.webp",
+          "avif": "/media/opt/victor-valera-nh-gallery-ee7d4dc7/600.avif"
+        }
+      ],
+      "fallback": "/media/opt/victor-valera-nh-gallery-ee7d4dc7/600.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2017/05/ludwig-wilding-nh-gallery1.jpg": {
+      "width": 600,
+      "height": 600,
+      "variants": [
+        {
+          "w": 600,
+          "h": 600,
+          "webp": "/media/opt/ludwig-wilding-nh-gallery1-94eba036/600.webp",
+          "avif": "/media/opt/ludwig-wilding-nh-gallery1-94eba036/600.avif"
+        }
+      ],
+      "fallback": "/media/opt/ludwig-wilding-nh-gallery1-94eba036/600.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2017/05/Lluis-barba-nh-gallery.jpg": {
+      "width": 600,
+      "height": 600,
+      "variants": [
+        {
+          "w": 600,
+          "h": 600,
+          "webp": "/media/opt/lluis-barba-nh-gallery-fbd9c5d7/600.webp",
+          "avif": "/media/opt/lluis-barba-nh-gallery-fbd9c5d7/600.avif"
+        }
+      ],
+      "fallback": "/media/opt/lluis-barba-nh-gallery-fbd9c5d7/600.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2020/05/Carlos-esteves-nh-gallery.jpg": {
+      "width": 600,
+      "height": 600,
+      "variants": [
+        {
+          "w": 600,
+          "h": 600,
+          "webp": "/media/opt/carlos-esteves-nh-gallery-a7c09187/600.webp",
+          "avif": "/media/opt/carlos-esteves-nh-gallery-a7c09187/600.avif"
+        }
+      ],
+      "fallback": "/media/opt/carlos-esteves-nh-gallery-a7c09187/600.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2018/08/luz-perez-ojeda-nh-gallery-.jpg": {
+      "width": 600,
+      "height": 600,
+      "variants": [
+        {
+          "w": 600,
+          "h": 600,
+          "webp": "/media/opt/luz-perez-ojeda-nh-gallery-5f54cb21/600.webp",
+          "avif": "/media/opt/luz-perez-ojeda-nh-gallery-5f54cb21/600.avif"
+        }
+      ],
+      "fallback": "/media/opt/luz-perez-ojeda-nh-gallery-5f54cb21/600.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2020/06/Escritura-del-Libro..jpg": {
+      "width": 570,
+      "height": 640,
+      "variants": [
+        {
+          "w": 570,
+          "h": 640,
+          "webp": "/media/opt/escritura-del-libro-b918302b/570.webp",
+          "avif": "/media/opt/escritura-del-libro-b918302b/570.avif"
+        }
+      ],
+      "fallback": "/media/opt/escritura-del-libro-b918302b/570.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2020/06/Imagenes-varias-en-la-parte-final-del-Libro..jpg": {
+      "width": 488,
+      "height": 640,
+      "variants": [
+        {
+          "w": 488,
+          "h": 640,
+          "webp": "/media/opt/imagenes-varias-en-la-parte-final-del-libro-8e500eb9/488.webp",
+          "avif": "/media/opt/imagenes-varias-en-la-parte-final-del-libro-8e500eb9/488.avif"
+        }
+      ],
+      "fallback": "/media/opt/imagenes-varias-en-la-parte-final-del-libro-8e500eb9/488.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2020/06/Primera-pag.-libro-Soto..jpg": {
+      "width": 577,
+      "height": 640,
+      "variants": [
+        {
+          "w": 577,
+          "h": 640,
+          "webp": "/media/opt/primera-pag-libro-soto-9c2da506/577.webp",
+          "avif": "/media/opt/primera-pag-libro-soto-9c2da506/577.avif"
+        }
+      ],
+      "fallback": "/media/opt/primera-pag-libro-soto-9c2da506/577.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2020/06/bookProductSOTO.jpeg": {
+      "width": 800,
+      "height": 800,
+      "variants": [
+        {
+          "w": 800,
+          "h": 800,
+          "webp": "/media/opt/bookproductsoto-d0a640a1/800.webp",
+          "avif": "/media/opt/bookproductsoto-d0a640a1/800.avif"
+        }
+      ],
+      "fallback": "/media/opt/bookproductsoto-d0a640a1/800.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2017/12/luzperezojeda.png": {
+      "width": 1000,
+      "height": 993,
+      "variants": [
+        {
+          "w": 800,
+          "h": 794,
+          "webp": "/media/opt/luzperezojeda-548831be/800.webp",
+          "avif": "/media/opt/luzperezojeda-548831be/800.avif"
+        },
+        {
+          "w": 1000,
+          "h": 993,
+          "webp": "/media/opt/luzperezojeda-548831be/1000.webp",
+          "avif": "/media/opt/luzperezojeda-548831be/1000.avif"
+        }
+      ],
+      "fallback": "/media/opt/luzperezojeda-548831be/1000.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2020/08/Captura-de-Pantalla-2020-08-10-a-las-1.39.55-a.-m..png": {
+      "width": 685,
+      "height": 677,
+      "variants": [
+        {
+          "w": 685,
+          "h": 677,
+          "webp": "/media/opt/captura-de-pantalla-2020-08-10-a-las-1-39-55-a-m-049acd01/685.webp",
+          "avif": "/media/opt/captura-de-pantalla-2020-08-10-a-las-1-39-55-a-m-049acd01/685.avif"
+        }
+      ],
+      "fallback": "/media/opt/captura-de-pantalla-2020-08-10-a-las-1-39-55-a-m-049acd01/685.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2020/08/Captura-de-Pantalla-2020-08-10-a-las-1.40.23-a.-m.-e1599083388613.png": {
+      "width": 656,
+      "height": 656,
+      "variants": [
+        {
+          "w": 656,
+          "h": 656,
+          "webp": "/media/opt/captura-de-pantalla-2020-08-10-a-las-1-40-23-a-m-dceffd3d/656.webp",
+          "avif": "/media/opt/captura-de-pantalla-2020-08-10-a-las-1-40-23-a-m-dceffd3d/656.avif"
+        }
+      ],
+      "fallback": "/media/opt/captura-de-pantalla-2020-08-10-a-las-1-40-23-a-m-dceffd3d/656.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2020/08/Cha%CC%82teau-de-Versailles-IV-scaled.jpg": {
+      "width": 800,
+      "height": 800,
+      "variants": [
+        {
+          "w": 800,
+          "h": 800,
+          "webp": "/media/opt/cha-teau-de-versailles-iv-scaled-a9f8f4de/800.webp",
+          "avif": "/media/opt/cha-teau-de-versailles-iv-scaled-a9f8f4de/800.avif"
+        }
+      ],
+      "fallback": "/media/opt/cha-teau-de-versailles-iv-scaled-a9f8f4de/800.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2020/08/Cha%CC%82teau-de-Versailles-II-20x20-cm--scaled.jpg": {
+      "width": 800,
+      "height": 800,
+      "variants": [
+        {
+          "w": 800,
+          "h": 800,
+          "webp": "/media/opt/cha-teau-de-versailles-ii-20x20-cm-scaled-007eb237/800.webp",
+          "avif": "/media/opt/cha-teau-de-versailles-ii-20x20-cm-scaled-007eb237/800.avif"
+        }
+      ],
+      "fallback": "/media/opt/cha-teau-de-versailles-ii-20x20-cm-scaled-007eb237/800.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2020/08/Cha%CC%82teau-de-Versailles-V-La-cour-de-Mabre-a-scaled.jpg": {
+      "width": 800,
+      "height": 800,
+      "variants": [
+        {
+          "w": 800,
+          "h": 800,
+          "webp": "/media/opt/cha-teau-de-versailles-v-la-cour-de-mabre-a-scal-21674bbc/800.webp",
+          "avif": "/media/opt/cha-teau-de-versailles-v-la-cour-de-mabre-a-scal-21674bbc/800.avif"
+        }
+      ],
+      "fallback": "/media/opt/cha-teau-de-versailles-v-la-cour-de-mabre-a-scal-21674bbc/800.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2020/08/Cha%CC%82teau-de-Versailles-VII-scaled.jpg": {
+      "width": 800,
+      "height": 800,
+      "variants": [
+        {
+          "w": 800,
+          "h": 800,
+          "webp": "/media/opt/cha-teau-de-versailles-vii-scaled-81f46f3f/800.webp",
+          "avif": "/media/opt/cha-teau-de-versailles-vii-scaled-81f46f3f/800.avif"
+        }
+      ],
+      "fallback": "/media/opt/cha-teau-de-versailles-vii-scaled-81f46f3f/800.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2020/08/IMG_0691.jpg": {
+      "width": 640,
+      "height": 640,
+      "variants": [
+        {
+          "w": 640,
+          "h": 640,
+          "webp": "/media/opt/img-0691-b79157a1/640.webp",
+          "avif": "/media/opt/img-0691-b79157a1/640.avif"
+        }
+      ],
+      "fallback": "/media/opt/img-0691-b79157a1/640.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2020/08/IMG_0697-1.jpg": {
+      "width": 625,
+      "height": 640,
+      "variants": [
+        {
+          "w": 625,
+          "h": 640,
+          "webp": "/media/opt/img-0697-1-115d3265/625.webp",
+          "avif": "/media/opt/img-0697-1-115d3265/625.avif"
+        }
+      ],
+      "fallback": "/media/opt/img-0697-1-115d3265/625.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2020/08/IMG_0696.jpg": {
+      "width": 640,
+      "height": 640,
+      "variants": [
+        {
+          "w": 640,
+          "h": 640,
+          "webp": "/media/opt/img-0696-25e55735/640.webp",
+          "avif": "/media/opt/img-0696-25e55735/640.avif"
+        }
+      ],
+      "fallback": "/media/opt/img-0696-25e55735/640.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2020/08/IMG_0692.jpg": {
+      "width": 640,
+      "height": 628,
+      "variants": [
+        {
+          "w": 640,
+          "h": 628,
+          "webp": "/media/opt/img-0692-421a4b2e/640.webp",
+          "avif": "/media/opt/img-0692-421a4b2e/640.avif"
+        }
+      ],
+      "fallback": "/media/opt/img-0692-421a4b2e/640.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2020/08/IMG_0700-1.jpg": {
+      "width": 640,
+      "height": 636,
+      "variants": [
+        {
+          "w": 640,
+          "h": 636,
+          "webp": "/media/opt/img-0700-1-5f352dbe/640.webp",
+          "avif": "/media/opt/img-0700-1-5f352dbe/640.avif"
+        }
+      ],
+      "fallback": "/media/opt/img-0700-1-5f352dbe/640.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2020/08/IMG_0701.jpg": {
+      "width": 637,
+      "height": 640,
+      "variants": [
+        {
+          "w": 637,
+          "h": 640,
+          "webp": "/media/opt/img-0701-3e9e362e/637.webp",
+          "avif": "/media/opt/img-0701-3e9e362e/637.avif"
+        }
+      ],
+      "fallback": "/media/opt/img-0701-3e9e362e/637.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2020/08/chateu.jpg": {
+      "width": 800,
+      "height": 800,
+      "variants": [
+        {
+          "w": 800,
+          "h": 800,
+          "webp": "/media/opt/chateu-88c7eb5a/800.webp",
+          "avif": "/media/opt/chateu-88c7eb5a/800.avif"
+        }
+      ],
+      "fallback": "/media/opt/chateu-88c7eb5a/800.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2020/08/chtteu2.jpg": {
+      "width": 800,
+      "height": 800,
+      "variants": [
+        {
+          "w": 800,
+          "h": 800,
+          "webp": "/media/opt/chtteu2-a938cce3/800.webp",
+          "avif": "/media/opt/chtteu2-a938cce3/800.avif"
+        }
+      ],
+      "fallback": "/media/opt/chtteu2-a938cce3/800.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2020/08/IMG_0708.jpg": {
+      "width": 630,
+      "height": 640,
+      "variants": [
+        {
+          "w": 630,
+          "h": 640,
+          "webp": "/media/opt/img-0708-81b53ed9/630.webp",
+          "avif": "/media/opt/img-0708-81b53ed9/630.avif"
+        }
+      ],
+      "fallback": "/media/opt/img-0708-81b53ed9/630.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2020/09/Cruz-Diez-Ninoska-Huerta-2011-1.jpg": {
+      "width": 800,
+      "height": 450,
+      "variants": [
+        {
+          "w": 800,
+          "h": 450,
+          "webp": "/media/opt/cruz-diez-ninoska-huerta-2011-1-7e2f201c/800.webp",
+          "avif": "/media/opt/cruz-diez-ninoska-huerta-2011-1-7e2f201c/800.avif"
+        }
+      ],
+      "fallback": "/media/opt/cruz-diez-ninoska-huerta-2011-1-7e2f201c/800.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2020/09/Coral-Gables-city-Hall-Coral-Way-Walkways-by-Cruz-Diez.-11_2017-2-1.jpg": {
+      "width": 800,
+      "height": 600,
+      "variants": [
+        {
+          "w": 800,
+          "h": 600,
+          "webp": "/media/opt/coral-gables-city-hall-coral-way-walkways-by-cru-846f1561/800.webp",
+          "avif": "/media/opt/coral-gables-city-hall-coral-way-walkways-by-cru-846f1561/800.avif"
+        }
+      ],
+      "fallback": "/media/opt/coral-gables-city-hall-coral-way-walkways-by-cru-846f1561/800.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2020/09/Cruz-Diez-Soto-y-Ninoska-Huerta-Exposicion-Soto-PDVsa-Caracas-1998-1-rotated.jpg": {
+      "width": 640,
+      "height": 513,
+      "variants": [
+        {
+          "w": 640,
+          "h": 513,
+          "webp": "/media/opt/cruz-diez-soto-y-ninoska-huerta-exposicion-soto--987e3f78/640.webp",
+          "avif": "/media/opt/cruz-diez-soto-y-ninoska-huerta-exposicion-soto--987e3f78/640.avif"
+        }
+      ],
+      "fallback": "/media/opt/cruz-diez-soto-y-ninoska-huerta-exposicion-soto--987e3f78/640.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2020/09/Denise-Rene-Ninoska-Huerta-y-Loretta-Marcucci.Presentacion-libro-Soto-en-paris.-1.jpg": {
+      "width": 432,
+      "height": 800,
+      "variants": [
+        {
+          "w": 432,
+          "h": 800,
+          "webp": "/media/opt/denise-rene-ninoska-huerta-y-loretta-marcucci-pr-6bb48ca6/432.webp",
+          "avif": "/media/opt/denise-rene-ninoska-huerta-y-loretta-marcucci-pr-6bb48ca6/432.avif"
+        }
+      ],
+      "fallback": "/media/opt/denise-rene-ninoska-huerta-y-loretta-marcucci-pr-6bb48ca6/432.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2020/09/paul-amundarain-nh-gallery.jpg": {
+      "width": 600,
+      "height": 600,
+      "variants": [
+        {
+          "w": 600,
+          "h": 600,
+          "webp": "/media/opt/paul-amundarain-nh-gallery-3931ed2f/600.webp",
+          "avif": "/media/opt/paul-amundarain-nh-gallery-3931ed2f/600.avif"
+        }
+      ],
+      "fallback": "/media/opt/paul-amundarain-nh-gallery-3931ed2f/600.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2020/09/Ninoska-B.-Uslar-Pietri-y-Ninoska-Huerta-1999.-1.jpg": {
+      "width": 640,
+      "height": 467,
+      "variants": [
+        {
+          "w": 640,
+          "h": 467,
+          "webp": "/media/opt/ninoska-b-uslar-pietri-y-ninoska-huerta-1999-1-70591f1f/640.webp",
+          "avif": "/media/opt/ninoska-b-uslar-pietri-y-ninoska-huerta-1999-1-70591f1f/640.avif"
+        }
+      ],
+      "fallback": "/media/opt/ninoska-b-uslar-pietri-y-ninoska-huerta-1999-1-70591f1f/640.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2021/01/valeria-yamamoto-1.jpg": {
+      "width": 600,
+      "height": 600,
+      "variants": [
+        {
+          "w": 600,
+          "h": 600,
+          "webp": "/media/opt/valeria-yamamoto-1-0b7c4fac/600.webp",
+          "avif": "/media/opt/valeria-yamamoto-1-0b7c4fac/600.avif"
+        }
+      ],
+      "fallback": "/media/opt/valeria-yamamoto-1-0b7c4fac/600.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2021/02/IMG_3595.jpg": {
+      "width": 640,
+      "height": 480,
+      "variants": [
+        {
+          "w": 640,
+          "h": 480,
+          "webp": "/media/opt/img-3595-865adbee/640.webp",
+          "avif": "/media/opt/img-3595-865adbee/640.avif"
+        }
+      ],
+      "fallback": "/media/opt/img-3595-865adbee/640.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2021/06/horses-nh2.jpg": {
+      "width": 800,
+      "height": 500,
+      "variants": [
+        {
+          "w": 800,
+          "h": 500,
+          "webp": "/media/opt/horses-nh2-2bb5b6bc/800.webp",
+          "avif": "/media/opt/horses-nh2-2bb5b6bc/800.avif"
+        }
+      ],
+      "fallback": "/media/opt/horses-nh2-2bb5b6bc/800.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2021/06/Speedy_Graphito_Nh-Gallery.jpg": {
+      "width": 600,
+      "height": 600,
+      "variants": [
+        {
+          "w": 600,
+          "h": 600,
+          "webp": "/media/opt/speedy-graphito-nh-gallery-08dad6cf/600.webp",
+          "avif": "/media/opt/speedy-graphito-nh-gallery-08dad6cf/600.avif"
+        }
+      ],
+      "fallback": "/media/opt/speedy-graphito-nh-gallery-08dad6cf/600.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2021/07/13-foto..jpg": {
+      "width": 504,
+      "height": 378,
+      "variants": [
+        {
+          "w": 504,
+          "h": 378,
+          "webp": "/media/opt/13-foto-274fb1ec/504.webp",
+          "avif": "/media/opt/13-foto-274fb1ec/504.avif"
+        }
+      ],
+      "fallback": "/media/opt/13-foto-274fb1ec/504.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2022/06/Lynn-Kislack-nh.jpg": {
+      "width": 600,
+      "height": 600,
+      "variants": [
+        {
+          "w": 600,
+          "h": 600,
+          "webp": "/media/opt/lynn-kislack-nh-d63e2e1b/600.webp",
+          "avif": "/media/opt/lynn-kislack-nh-d63e2e1b/600.avif"
+        }
+      ],
+      "fallback": "/media/opt/lynn-kislack-nh-d63e2e1b/600.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2022/06/Ninoska-huerta-portada.jpg": {
+      "width": 509,
+      "height": 545,
+      "variants": [
+        {
+          "w": 509,
+          "h": 545,
+          "webp": "/media/opt/ninoska-huerta-portada-1ba6dd67/509.webp",
+          "avif": "/media/opt/ninoska-huerta-portada-1ba6dd67/509.avif"
+        }
+      ],
+      "fallback": "/media/opt/ninoska-huerta-portada-1ba6dd67/509.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2020/09/Copy-of-LLuis-B.6-08-GOLCONDE-MAGRITTE-NINOSKA.jpg": {
+      "width": 1600,
+      "height": 1074,
+      "variants": [
+        {
+          "w": 800,
+          "h": 537,
+          "webp": "/media/opt/copy-of-lluis-b-6-08-golconde-magritte-ninoska-b596d5a2/800.webp",
+          "avif": "/media/opt/copy-of-lluis-b-6-08-golconde-magritte-ninoska-b596d5a2/800.avif"
+        },
+        {
+          "w": 1600,
+          "h": 1074,
+          "webp": "/media/opt/copy-of-lluis-b-6-08-golconde-magritte-ninoska-b596d5a2/1600.webp",
+          "avif": "/media/opt/copy-of-lluis-b-6-08-golconde-magritte-ninoska-b596d5a2/1600.avif"
+        }
+      ],
+      "fallback": "/media/opt/copy-of-lluis-b-6-08-golconde-magritte-ninoska-b596d5a2/1600.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2022/06/dario-perez-flores-1.jpg": {
+      "width": 350,
+      "height": 350,
+      "variants": [
+        {
+          "w": 350,
+          "h": 350,
+          "webp": "/media/opt/dario-perez-flores-1-e1dfec45/350.webp",
+          "avif": "/media/opt/dario-perez-flores-1-e1dfec45/350.avif"
+        }
+      ],
+      "fallback": "/media/opt/dario-perez-flores-1-e1dfec45/350.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2023/01/Ivonne-Ferrer2.jpg": {
+      "width": 600,
+      "height": 600,
+      "variants": [
+        {
+          "w": 600,
+          "h": 600,
+          "webp": "/media/opt/ivonne-ferrer2-d04e2003/600.webp",
+          "avif": "/media/opt/ivonne-ferrer2-d04e2003/600.avif"
+        }
+      ],
+      "fallback": "/media/opt/ivonne-ferrer2-d04e2003/600.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2022/04/Dario-Perez-Flores-Prochromatic.-scaled.jpg": {
+      "width": 1600,
+      "height": 1605,
+      "variants": [
+        {
+          "w": 800,
+          "h": 802,
+          "webp": "/media/opt/dario-perez-flores-prochromatic-scaled-f4a6b9d2/800.webp",
+          "avif": "/media/opt/dario-perez-flores-prochromatic-scaled-f4a6b9d2/800.avif"
+        },
+        {
+          "w": 1600,
+          "h": 1605,
+          "webp": "/media/opt/dario-perez-flores-prochromatic-scaled-f4a6b9d2/1600.webp",
+          "avif": "/media/opt/dario-perez-flores-prochromatic-scaled-f4a6b9d2/1600.avif"
+        }
+      ],
+      "fallback": "/media/opt/dario-perez-flores-prochromatic-scaled-f4a6b9d2/1600.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2023/01/jorge-blanco-1.jpg": {
+      "width": 360,
+      "height": 360,
+      "variants": [
+        {
+          "w": 360,
+          "h": 360,
+          "webp": "/media/opt/jorge-blanco-1-564a9a39/360.webp",
+          "avif": "/media/opt/jorge-blanco-1-564a9a39/360.avif"
+        }
+      ],
+      "fallback": "/media/opt/jorge-blanco-1-564a9a39/360.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2023/01/william-barboza-1.jpg": {
+      "width": 360,
+      "height": 360,
+      "variants": [
+        {
+          "w": 360,
+          "h": 360,
+          "webp": "/media/opt/william-barboza-1-ed2c43ba/360.webp",
+          "avif": "/media/opt/william-barboza-1-ed2c43ba/360.avif"
+        }
+      ],
+      "fallback": "/media/opt/william-barboza-1-ed2c43ba/360.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2022/04/Naranja-Superior-82-x-82x-14cm-.2003-scaled.jpg": {
+      "width": 1600,
+      "height": 1646,
+      "variants": [
+        {
+          "w": 800,
+          "h": 823,
+          "webp": "/media/opt/naranja-superior-82-x-82x-14cm-2003-scaled-479301cd/800.webp",
+          "avif": "/media/opt/naranja-superior-82-x-82x-14cm-2003-scaled-479301cd/800.avif"
+        },
+        {
+          "w": 1600,
+          "h": 1646,
+          "webp": "/media/opt/naranja-superior-82-x-82x-14cm-2003-scaled-479301cd/1600.webp",
+          "avif": "/media/opt/naranja-superior-82-x-82x-14cm-2003-scaled-479301cd/1600.avif"
+        }
+      ],
+      "fallback": "/media/opt/naranja-superior-82-x-82x-14cm-2003-scaled-479301cd/1600.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2023/01/Carlos-Anzola_-Road-to-South..jpg": {
+      "width": 1600,
+      "height": 1015,
+      "variants": [
+        {
+          "w": 800,
+          "h": 508,
+          "webp": "/media/opt/carlos-anzola-road-to-south-69f7e4c3/800.webp",
+          "avif": "/media/opt/carlos-anzola-road-to-south-69f7e4c3/800.avif"
+        },
+        {
+          "w": 1600,
+          "h": 1015,
+          "webp": "/media/opt/carlos-anzola-road-to-south-69f7e4c3/1600.webp",
+          "avif": "/media/opt/carlos-anzola-road-to-south-69f7e4c3/1600.avif"
+        }
+      ],
+      "fallback": "/media/opt/carlos-anzola-road-to-south-69f7e4c3/1600.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2022/04/Esfera-amarilla-y-negra-60x-60-x66cn-1997-scaled.jpg": {
+      "width": 1600,
+      "height": 2400,
+      "variants": [
+        {
+          "w": 800,
+          "h": 1200,
+          "webp": "/media/opt/esfera-amarilla-y-negra-60x-60-x66cn-1997-scaled-af8ab19c/800.webp",
+          "avif": "/media/opt/esfera-amarilla-y-negra-60x-60-x66cn-1997-scaled-af8ab19c/800.avif"
+        },
+        {
+          "w": 1600,
+          "h": 2400,
+          "webp": "/media/opt/esfera-amarilla-y-negra-60x-60-x66cn-1997-scaled-af8ab19c/1600.webp",
+          "avif": "/media/opt/esfera-amarilla-y-negra-60x-60-x66cn-1997-scaled-af8ab19c/1600.avif"
+        }
+      ],
+      "fallback": "/media/opt/esfera-amarilla-y-negra-60x-60-x66cn-1997-scaled-af8ab19c/1600.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2023/01/In-the-garden-scaled.jpg": {
+      "width": 1600,
+      "height": 1136,
+      "variants": [
+        {
+          "w": 800,
+          "h": 568,
+          "webp": "/media/opt/in-the-garden-scaled-483a2b6c/800.webp",
+          "avif": "/media/opt/in-the-garden-scaled-483a2b6c/800.avif"
+        },
+        {
+          "w": 1600,
+          "h": 1136,
+          "webp": "/media/opt/in-the-garden-scaled-483a2b6c/1600.webp",
+          "avif": "/media/opt/in-the-garden-scaled-483a2b6c/1600.avif"
+        }
+      ],
+      "fallback": "/media/opt/in-the-garden-scaled-483a2b6c/1600.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2023/03/adriana-dorta-nhgallery.jpg": {
+      "width": 360,
+      "height": 360,
+      "variants": [
+        {
+          "w": 360,
+          "h": 360,
+          "webp": "/media/opt/adriana-dorta-nhgallery-3461b37c/360.webp",
+          "avif": "/media/opt/adriana-dorta-nhgallery-3461b37c/360.avif"
+        }
+      ],
+      "fallback": "/media/opt/adriana-dorta-nhgallery-3461b37c/360.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2023/12/Luis-gomez-r.jpg": {
+      "width": 360,
+      "height": 360,
+      "variants": [
+        {
+          "w": 360,
+          "h": 360,
+          "webp": "/media/opt/luis-gomez-r-e9b4bd27/360.webp",
+          "avif": "/media/opt/luis-gomez-r-e9b4bd27/360.avif"
+        }
+      ],
+      "fallback": "/media/opt/luis-gomez-r-e9b4bd27/360.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2024/10/Jorge-Salas.jpg": {
+      "width": 600,
+      "height": 600,
+      "variants": [
+        {
+          "w": 600,
+          "h": 600,
+          "webp": "/media/opt/jorge-salas-2f01bc0b/600.webp",
+          "avif": "/media/opt/jorge-salas-2f01bc0b/600.avif"
+        }
+      ],
+      "fallback": "/media/opt/jorge-salas-2f01bc0b/600.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2023/03/KINETIC-REDS-Adriana-Dorta-2.jpg": {
+      "width": 1280,
+      "height": 1280,
+      "variants": [
+        {
+          "w": 800,
+          "h": 800,
+          "webp": "/media/opt/kinetic-reds-adriana-dorta-2-2513f5fe/800.webp",
+          "avif": "/media/opt/kinetic-reds-adriana-dorta-2-2513f5fe/800.avif"
+        },
+        {
+          "w": 1280,
+          "h": 1280,
+          "webp": "/media/opt/kinetic-reds-adriana-dorta-2-2513f5fe/1280.webp",
+          "avif": "/media/opt/kinetic-reds-adriana-dorta-2-2513f5fe/1280.avif"
+        }
+      ],
+      "fallback": "/media/opt/kinetic-reds-adriana-dorta-2-2513f5fe/1280.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2025/07/Abstract-20x24-Amarillo.png": {
+      "width": 1152,
+      "height": 970,
+      "variants": [
+        {
+          "w": 800,
+          "h": 674,
+          "webp": "/media/opt/abstract-20x24-amarillo-fc257a98/800.webp",
+          "avif": "/media/opt/abstract-20x24-amarillo-fc257a98/800.avif"
+        },
+        {
+          "w": 1152,
+          "h": 970,
+          "webp": "/media/opt/abstract-20x24-amarillo-fc257a98/1152.webp",
+          "avif": "/media/opt/abstract-20x24-amarillo-fc257a98/1152.avif"
+        }
+      ],
+      "fallback": "/media/opt/abstract-20x24-amarillo-fc257a98/1152.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2023/03/window-2021-2-scaled.jpeg": {
+      "width": 1600,
+      "height": 1849,
+      "variants": [
+        {
+          "w": 800,
+          "h": 924,
+          "webp": "/media/opt/window-2021-2-scaled-22cfd51b/800.webp",
+          "avif": "/media/opt/window-2021-2-scaled-22cfd51b/800.avif"
+        },
+        {
+          "w": 1600,
+          "h": 1849,
+          "webp": "/media/opt/window-2021-2-scaled-22cfd51b/1600.webp",
+          "avif": "/media/opt/window-2021-2-scaled-22cfd51b/1600.avif"
+        }
+      ],
+      "fallback": "/media/opt/window-2021-2-scaled-22cfd51b/1600.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2023/03/Window-2021-scaled.jpeg": {
+      "width": 1600,
+      "height": 2133,
+      "variants": [
+        {
+          "w": 800,
+          "h": 1066,
+          "webp": "/media/opt/window-2021-scaled-3b13b0c7/800.webp",
+          "avif": "/media/opt/window-2021-scaled-3b13b0c7/800.avif"
+        },
+        {
+          "w": 1600,
+          "h": 2133,
+          "webp": "/media/opt/window-2021-scaled-3b13b0c7/1600.webp",
+          "avif": "/media/opt/window-2021-scaled-3b13b0c7/1600.avif"
+        }
+      ],
+      "fallback": "/media/opt/window-2021-scaled-3b13b0c7/1600.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2025/04/Small-Universes.jpg": {
+      "width": 1080,
+      "height": 1080,
+      "variants": [
+        {
+          "w": 800,
+          "h": 800,
+          "webp": "/media/opt/small-universes-d061c36f/800.webp",
+          "avif": "/media/opt/small-universes-d061c36f/800.avif"
+        },
+        {
+          "w": 1080,
+          "h": 1080,
+          "webp": "/media/opt/small-universes-d061c36f/1080.webp",
+          "avif": "/media/opt/small-universes-d061c36f/1080.avif"
+        }
+      ],
+      "fallback": "/media/opt/small-universes-d061c36f/1080.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2025/07/Eduardo-Orozco-P.jpg": {
+      "width": 360,
+      "height": 360,
+      "variants": [
+        {
+          "w": 360,
+          "h": 360,
+          "webp": "/media/opt/eduardo-orozco-p-8a26c16d/360.webp",
+          "avif": "/media/opt/eduardo-orozco-p-8a26c16d/360.avif"
+        }
+      ],
+      "fallback": "/media/opt/eduardo-orozco-p-8a26c16d/360.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2024/07/Luis-Gomez-Rincon-Intersections-of-camouflage.jpg": {
+      "width": 1159,
+      "height": 1600,
+      "variants": [
+        {
+          "w": 800,
+          "h": 1104,
+          "webp": "/media/opt/luis-gomez-rincon-intersections-of-camouflage-b6b459ae/800.webp",
+          "avif": "/media/opt/luis-gomez-rincon-intersections-of-camouflage-b6b459ae/800.avif"
+        },
+        {
+          "w": 1159,
+          "h": 1600,
+          "webp": "/media/opt/luis-gomez-rincon-intersections-of-camouflage-b6b459ae/1159.webp",
+          "avif": "/media/opt/luis-gomez-rincon-intersections-of-camouflage-b6b459ae/1159.avif"
+        }
+      ],
+      "fallback": "/media/opt/luis-gomez-rincon-intersections-of-camouflage-b6b459ae/1159.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2025/07/Abstract-20x24-Azul.png": {
+      "width": 1152,
+      "height": 961,
+      "variants": [
+        {
+          "w": 800,
+          "h": 667,
+          "webp": "/media/opt/abstract-20x24-azul-aaf7d70e/800.webp",
+          "avif": "/media/opt/abstract-20x24-azul-aaf7d70e/800.avif"
+        },
+        {
+          "w": 1152,
+          "h": 961,
+          "webp": "/media/opt/abstract-20x24-azul-aaf7d70e/1152.webp",
+          "avif": "/media/opt/abstract-20x24-azul-aaf7d70e/1152.avif"
+        }
+      ],
+      "fallback": "/media/opt/abstract-20x24-azul-aaf7d70e/1152.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2025/07/Blue-Square.png": {
+      "width": 1152,
+      "height": 1146,
+      "variants": [
+        {
+          "w": 800,
+          "h": 796,
+          "webp": "/media/opt/blue-square-4c6b5fad/800.webp",
+          "avif": "/media/opt/blue-square-4c6b5fad/800.avif"
+        },
+        {
+          "w": 1152,
+          "h": 1146,
+          "webp": "/media/opt/blue-square-4c6b5fad/1152.webp",
+          "avif": "/media/opt/blue-square-4c6b5fad/1152.avif"
+        }
+      ],
+      "fallback": "/media/opt/blue-square-4c6b5fad/1152.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2023/12/5.jpg": {
+      "width": 1600,
+      "height": 1500,
+      "variants": [
+        {
+          "w": 800,
+          "h": 750,
+          "webp": "/media/opt/5-b2d9826c/800.webp",
+          "avif": "/media/opt/5-b2d9826c/800.avif"
+        },
+        {
+          "w": 1600,
+          "h": 1500,
+          "webp": "/media/opt/5-b2d9826c/1600.webp",
+          "avif": "/media/opt/5-b2d9826c/1600.avif"
+        }
+      ],
+      "fallback": "/media/opt/5-b2d9826c/1600.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2025/07/Plano-Fondo-24x24-1.png": {
+      "width": 1152,
+      "height": 1143,
+      "variants": [
+        {
+          "w": 800,
+          "h": 794,
+          "webp": "/media/opt/plano-fondo-24x24-1-6cd1c7ba/800.webp",
+          "avif": "/media/opt/plano-fondo-24x24-1-6cd1c7ba/800.avif"
+        },
+        {
+          "w": 1152,
+          "h": 1143,
+          "webp": "/media/opt/plano-fondo-24x24-1-6cd1c7ba/1152.webp",
+          "avif": "/media/opt/plano-fondo-24x24-1-6cd1c7ba/1152.avif"
+        }
+      ],
+      "fallback": "/media/opt/plano-fondo-24x24-1-6cd1c7ba/1152.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2025/07/Ilusion-24x24-1.png": {
+      "width": 1152,
+      "height": 1149,
+      "variants": [
+        {
+          "w": 800,
+          "h": 798,
+          "webp": "/media/opt/ilusion-24x24-1-dfffa96a/800.webp",
+          "avif": "/media/opt/ilusion-24x24-1-dfffa96a/800.avif"
+        },
+        {
+          "w": 1152,
+          "h": 1149,
+          "webp": "/media/opt/ilusion-24x24-1-dfffa96a/1152.webp",
+          "avif": "/media/opt/ilusion-24x24-1-dfffa96a/1152.avif"
+        }
+      ],
+      "fallback": "/media/opt/ilusion-24x24-1-dfffa96a/1152.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2025/07/Plano-volumen-mgenta.png": {
+      "width": 1152,
+      "height": 1148,
+      "variants": [
+        {
+          "w": 800,
+          "h": 797,
+          "webp": "/media/opt/plano-volumen-mgenta-839e52f3/800.webp",
+          "avif": "/media/opt/plano-volumen-mgenta-839e52f3/800.avif"
+        },
+        {
+          "w": 1152,
+          "h": 1148,
+          "webp": "/media/opt/plano-volumen-mgenta-839e52f3/1152.webp",
+          "avif": "/media/opt/plano-volumen-mgenta-839e52f3/1152.avif"
+        }
+      ],
+      "fallback": "/media/opt/plano-volumen-mgenta-839e52f3/1152.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2025/07/alain2a.png": {
+      "width": 360,
+      "height": 360,
+      "variants": [
+        {
+          "w": 360,
+          "h": 360,
+          "webp": "/media/opt/alain2a-d4feb686/360.webp",
+          "avif": "/media/opt/alain2a-d4feb686/360.avif"
+        }
+      ],
+      "fallback": "/media/opt/alain2a-d4feb686/360.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2025/07/Plano-volumen-naranja.png": {
+      "width": 864,
+      "height": 830,
+      "variants": [
+        {
+          "w": 864,
+          "h": 830,
+          "webp": "/media/opt/plano-volumen-naranja-78148b9e/864.webp",
+          "avif": "/media/opt/plano-volumen-naranja-78148b9e/864.avif"
+        }
+      ],
+      "fallback": "/media/opt/plano-volumen-naranja-78148b9e/864.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2025/07/rafael-montilla.png": {
+      "width": 300,
+      "height": 300,
+      "variants": [
+        {
+          "w": 300,
+          "h": 300,
+          "webp": "/media/opt/rafael-montilla-9c6508d7/300.webp",
+          "avif": "/media/opt/rafael-montilla-9c6508d7/300.avif"
+        }
+      ],
+      "fallback": "/media/opt/rafael-montilla-9c6508d7/300.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2025/07/Violet-Square.png": {
+      "width": 960,
+      "height": 974,
+      "variants": [
+        {
+          "w": 800,
+          "h": 812,
+          "webp": "/media/opt/violet-square-d5194e9a/800.webp",
+          "avif": "/media/opt/violet-square-d5194e9a/800.avif"
+        },
+        {
+          "w": 960,
+          "h": 974,
+          "webp": "/media/opt/violet-square-d5194e9a/960.webp",
+          "avif": "/media/opt/violet-square-d5194e9a/960.avif"
+        }
+      ],
+      "fallback": "/media/opt/violet-square-d5194e9a/960.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2025/07/Planos-Dinamicos.png": {
+      "width": 960,
+      "height": 961,
+      "variants": [
+        {
+          "w": 800,
+          "h": 801,
+          "webp": "/media/opt/planos-dinamicos-bf76f194/800.webp",
+          "avif": "/media/opt/planos-dinamicos-bf76f194/800.avif"
+        },
+        {
+          "w": 960,
+          "h": 961,
+          "webp": "/media/opt/planos-dinamicos-bf76f194/960.webp",
+          "avif": "/media/opt/planos-dinamicos-bf76f194/960.avif"
+        }
+      ],
+      "fallback": "/media/opt/planos-dinamicos-bf76f194/960.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2025/10/Latidos-de-Bassman.png": {
+      "width": 802,
+      "height": 623,
+      "variants": [
+        {
+          "w": 802,
+          "h": 623,
+          "webp": "/media/opt/latidos-de-bassman-72dae496/802.webp",
+          "avif": "/media/opt/latidos-de-bassman-72dae496/802.avif"
+        }
+      ],
+      "fallback": "/media/opt/latidos-de-bassman-72dae496/802.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2025/10/amalia-pereira.jpg": {
+      "width": 360,
+      "height": 360,
+      "variants": [
+        {
+          "w": 360,
+          "h": 360,
+          "webp": "/media/opt/amalia-pereira-bd10b8f1/360.webp",
+          "avif": "/media/opt/amalia-pereira-bd10b8f1/360.avif"
+        }
+      ],
+      "fallback": "/media/opt/amalia-pereira-bd10b8f1/360.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2025/10/De-Facto.png": {
+      "width": 797,
+      "height": 681,
+      "variants": [
+        {
+          "w": 797,
+          "h": 681,
+          "webp": "/media/opt/de-facto-b7d2dc50/797.webp",
+          "avif": "/media/opt/de-facto-b7d2dc50/797.avif"
+        }
+      ],
+      "fallback": "/media/opt/de-facto-b7d2dc50/797.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2025/10/Los-senores-de-la-Guerra.png": {
+      "width": 798,
+      "height": 631,
+      "variants": [
+        {
+          "w": 798,
+          "h": 631,
+          "webp": "/media/opt/los-senores-de-la-guerra-8d52bfc8/798.webp",
+          "avif": "/media/opt/los-senores-de-la-guerra-8d52bfc8/798.avif"
+        }
+      ],
+      "fallback": "/media/opt/los-senores-de-la-guerra-8d52bfc8/798.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2025/09/structure-of-color-exh.jpg": {
+      "width": 1080,
+      "height": 1080,
+      "variants": [
+        {
+          "w": 800,
+          "h": 800,
+          "webp": "/media/opt/structure-of-color-exh-ab17303c/800.webp",
+          "avif": "/media/opt/structure-of-color-exh-ab17303c/800.avif"
+        },
+        {
+          "w": 1080,
+          "h": 1080,
+          "webp": "/media/opt/structure-of-color-exh-ab17303c/1080.webp",
+          "avif": "/media/opt/structure-of-color-exh-ab17303c/1080.avif"
+        }
+      ],
+      "fallback": "/media/opt/structure-of-color-exh-ab17303c/1080.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2025/10/Untitled.png": {
+      "width": 792,
+      "height": 630,
+      "variants": [
+        {
+          "w": 792,
+          "h": 630,
+          "webp": "/media/opt/untitled-51955507/792.webp",
+          "avif": "/media/opt/untitled-51955507/792.avif"
+        }
+      ],
+      "fallback": "/media/opt/untitled-51955507/792.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2026/09/IMG_8169.jpg": {
+      "width": 578,
+      "height": 640,
+      "variants": [
+        {
+          "w": 578,
+          "h": 640,
+          "webp": "/media/opt/img-8169-372b629a/578.webp",
+          "avif": "/media/opt/img-8169-372b629a/578.avif"
+        }
+      ],
+      "fallback": "/media/opt/img-8169-372b629a/578.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2026/09/IMG_8166.jpg": {
+      "width": 608,
+      "height": 640,
+      "variants": [
+        {
+          "w": 608,
+          "h": 640,
+          "webp": "/media/opt/img-8166-6f3913c9/608.webp",
+          "avif": "/media/opt/img-8166-6f3913c9/608.avif"
+        }
+      ],
+      "fallback": "/media/opt/img-8166-6f3913c9/608.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2026/09/IMG_8174.jpg": {
+      "width": 608,
+      "height": 640,
+      "variants": [
+        {
+          "w": 608,
+          "h": 640,
+          "webp": "/media/opt/img-8174-09742e62/608.webp",
+          "avif": "/media/opt/img-8174-09742e62/608.avif"
+        }
+      ],
+      "fallback": "/media/opt/img-8174-09742e62/608.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2026/09/IMG_8175.jpg": {
+      "width": 626,
+      "height": 640,
+      "variants": [
+        {
+          "w": 626,
+          "h": 640,
+          "webp": "/media/opt/img-8175-74b855a5/626.webp",
+          "avif": "/media/opt/img-8175-74b855a5/626.avif"
+        }
+      ],
+      "fallback": "/media/opt/img-8175-74b855a5/626.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2026/04/amalia-pereira.jpg": {
+      "width": 981,
+      "height": 1600,
+      "variants": [
+        {
+          "w": 800,
+          "h": 1305,
+          "webp": "/media/opt/amalia-pereira-c8719522/800.webp",
+          "avif": "/media/opt/amalia-pereira-c8719522/800.avif"
+        },
+        {
+          "w": 981,
+          "h": 1600,
+          "webp": "/media/opt/amalia-pereira-c8719522/981.webp",
+          "avif": "/media/opt/amalia-pereira-c8719522/981.avif"
+        }
+      ],
+      "fallback": "/media/opt/amalia-pereira-c8719522/981.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2026/03/volviendo-.jpg": {
+      "width": 1080,
+      "height": 1080,
+      "variants": [
+        {
+          "w": 800,
+          "h": 800,
+          "webp": "/media/opt/volviendo-a9e719fa/800.webp",
+          "avif": "/media/opt/volviendo-a9e719fa/800.avif"
+        },
+        {
+          "w": 1080,
+          "h": 1080,
+          "webp": "/media/opt/volviendo-a9e719fa/1080.webp",
+          "avif": "/media/opt/volviendo-a9e719fa/1080.avif"
+        }
+      ],
+      "fallback": "/media/opt/volviendo-a9e719fa/1080.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2026/09/beyond-the-visible.jpeg": {
+      "width": 1122,
+      "height": 1402,
+      "variants": [
+        {
+          "w": 800,
+          "h": 1000,
+          "webp": "/media/opt/beyond-the-visible-6c561270/800.webp",
+          "avif": "/media/opt/beyond-the-visible-6c561270/800.avif"
+        },
+        {
+          "w": 1122,
+          "h": 1402,
+          "webp": "/media/opt/beyond-the-visible-6c561270/1122.webp",
+          "avif": "/media/opt/beyond-the-visible-6c561270/1122.avif"
+        }
+      ],
+      "fallback": "/media/opt/beyond-the-visible-6c561270/1122.webp"
+    },
+    "https://ninoskahuertagallery.com/wp-content/uploads/2026/09/IMG_8170.jpg": {
+      "width": 608,
+      "height": 640,
+      "variants": [
+        {
+          "w": 608,
+          "h": 640,
+          "webp": "/media/opt/img-8170-8976a4c1/608.webp",
+          "avif": "/media/opt/img-8170-8976a4c1/608.avif"
+        }
+      ],
+      "fallback": "/media/opt/img-8170-8976a4c1/608.webp"
+    }
+  },
+  "remote": [
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2024/07/Kinetic-White.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 341408
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2023/03/KINETIC-REDS-Adriana-Dorta.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 258876
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2025/11/adriana-dorta2.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 321452
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2024/07/Optical-Vibration-Blue.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 330262
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2025/11/adriana-dorta1a.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 84983
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2025/11/Adriana-dorta3.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 102381
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2025/11/adriana-dorta-ilusion-optica-lunar.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 150076
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2025/10/Physichromie-1997-ano-2015.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 84655
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/cruz-diez-physichromie-2371.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 47892
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/marion-a-25-x-50-cm-2008.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 20935
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/marion-d.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 32803
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/cruzdiez-manipulable-2009-40x35x10cm.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 42646
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/marion-b-25-x-50-cm-2008.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 19393
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/03/Cruz-Diez-Chromointerference-Circulaire.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 105318
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/cruz-diez-transchromie.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 34686
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/marion-c.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 30562
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/03/Cruz-Diez-Chromointerference-Circulaire-B.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 87839
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/08/F-16-5.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 226033
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2024/06/PHOTO-2024-05-07-23-39-08.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 64051
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2024/06/PHOTO-2024-05-07-23-42-23-3.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 153459
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2023/01/IF1.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 84522
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2025/07/Instrospection2-scaled.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 255107
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2025/07/Instrospection1-scaled.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 176120
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/08/5-Ivonne-Ferrer.-Humanitys-gambits-2021.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 195852
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/08/F-3.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 201564
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2024/06/PHOTO-2024-05-07-23-41-02-2.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 325789
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2023/01/IF2.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 118810
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/08/F-14.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 244102
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/08/F-16.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 166625
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/08/F-16-19.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 204530
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/08/8-Ivonne-Ferrer.-Humanitys-gambits-detail-2021.-Cera%CC%81mica-policromada-y-vidriada.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 222059
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/08/F-4.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 208605
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2024/06/PHOTO-2024-05-07-23-43-03-2.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 185265
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2023/01/IF3.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 76577
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/08/F-22.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 298799
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/08/F-16-3.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 189200
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/08/2-Ivonne-Ferrer.-Humanitys-gambits-2021.-Cera%CC%81mica-policromada-y-vidriada.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 195852
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2024/10/The-offering-scaled.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 208958
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2024/10/De-la-Serie-Escrituras-sin-Tiempo-Memoria-Ritmica-2019-scaled.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 337024
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2024/10/the-offering-port-miami-scaled.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 268657
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2024/10/De-la-Serie-Escrituras-sin-Tiempo-Memoria-Ritmica-2019--scaled.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 187153
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2024/10/Large-Mural-I-From-the-series-You-and-Me-2023.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 160804
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/12/Lynn-Kislak-Breathless-II-12x12x11-in2017.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 45796
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/12/Malaguena.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 60376
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/12/malaguena-front.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 77214
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/12/M3A7823.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 66603
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/06/Lynn_Kislak_M3A7874.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 76129
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/12/M3A9685.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 119288
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/12/anticipation.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 51931
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/12/Lynn-K.-Daydreams.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 99000
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/Rubem-Robierb-Folow-Me.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 125156
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/12/Rubem-Robierb-Lighting-Heard-BLUE.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 159394
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/12/Rubem-Robierb-Love-Changes-Everything.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 86411
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/12/Rubem-Robierb-Belive.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 105349
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2023/01/Diptychs-2.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 317579
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2023/01/Dream-Machine-Variations.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 74086
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2023/01/Dream-Machine-II.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 157595
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/Rubem-Robierb-Silver-Butterfly-I-on-Beige.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 73660
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/Rubem-Robierb-Now-or-Never.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 210526
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/12/Rubem-Robierb-White-Gold.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 80415
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/12/Rubem-Robierb-Love-Hurts.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 148344
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2023/01/Diptychs.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 68125
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2023/01/Dream-Machine-Variations-n.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 68214
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/12/Rubem-Robierb-Lighting-Heard-RED.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 164977
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/Rubem-Robierb-Silver-Butterfly-II-on-Beige.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 73037
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/Rubem-Robierb-Forever.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 43014
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/12/Rubem-Robierb-High-Voltage.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 173316
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/12/Rubem-Robierb-Crime-Scene.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 182130
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2023/01/PEACE-MAKERS.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 63532
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2023/01/Dream-Machine-Variations-3.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 97690
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/victor-valera-rojo.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 34300
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/Victor-Valera-100-x-100-cm_.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 82524
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/victor-valera-azul.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 42791
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/victor-valera-122x122cm-acrilycon-wood.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 58867
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/victor-valera-acrilyc-0n-wood-122cmx122cm.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 57291
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/victor-valera-acrilyc-on-wood-122cmx-122cm.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 95594
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2024/12/meditation.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 14366
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2024/12/The-Author%E2%80%A6.-almost.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 12147
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2024/12/congress-of-birds.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 122022
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2024/12/The-Big-Breaking-%E2%80%93-Chamanic-Black-Light.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 99330
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2024/12/Resurection.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 16864
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2024/12/Police-Station-Object-Poem.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 70083
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2024/12/Spechless%E2%80%A6-to-the-Death.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 58250
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/06/Quinteto-de-viento-1.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 88010
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/06/Quinteto-de-viento-4-1.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 97491
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/06/Ballet-onirico-II.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 66024
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/06/Ballet-onirico-VII.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 72169
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/06/Ballet-onirico-X.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 71474
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/06/Ballet-onirico-XIV.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 93626
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/12/Platos-de-Ceramica.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 69554
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/12/Platos-de-Ceramica-4.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 147343
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/06/Quinteto-de-viento-2.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 91636
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/06/Quinteto-de-viento-5.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 109385
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/06/Ballet-onirico-III.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 74559
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/06/Ballet-onirico-VIII.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 82451
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/06/Ballet-onirico-XII.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 85340
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/06/Ballet-onirico-XV.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 74761
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/06/Carlos_Estevez_Amores_del_parque.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 121694
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/12/Platos-de-Ceramica-2.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 101767
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/06/Quinteto-de-viento-3.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 89119
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/06/Ballet-onirico-VI.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 69287
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/06/Ballet-Onirico-IX.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 81951
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/06/Ballet-onirico-XIII.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 82247
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/06/Los-espejos-del-tiempo-1.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 116225
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/12/Platos-de-Ceramica-3.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 96049
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/12/Platos-de-Ceramica-6.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 93758
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/12/Platos-de-Ceramica-5.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 150023
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/artists_nh__0015_soto.png",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 91542
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/06/Esfera-Soto-Negra-y-Amarilla.1997..jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 164601
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/06/jesus-rafael-composition-cinetique.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 61748
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2011/12/Soto-serigrafia..jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 29909
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/06/Soto.-Murale-Arangio-1968.-scaled.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 175317
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/05/ludwig-wilding-nh-gallery.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 53096
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/ludwig-wilding-sbst-2824.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 67657
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/ludwig-wilding-sb-vii.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 50272
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/12/sbst-2818.jpeg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 85144
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/ludwig-wilding-sb2.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 63915
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/ludwig.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 71243
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/12/sbst-2823.jpeg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 82516
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/ludwig-wilding-sb1.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 69283
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/06/Ludwig-Wilding.-5_100.-1986..jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 60452
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/12/sbt-2835.jpeg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 82720
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/warhollbymarin-scaled.jpeg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 69677
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/audrey-1.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 73009
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/Sofia-by-Marcos-Marin.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 117365
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/Marcos-Marin-foto-de-Elizabeth.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 180983
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/02/Marcos-Marin-Marilyn_210x210cm.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 111257
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/02/marcos_marin_Rommie_Schneider.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 141729
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/Dali-Marcos-M.acrilic-c-anvas.32%C2%B4%C2%B4x-22%C2%B4%C2%B42005.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 127470
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/02/Marcos_Marin_audrey.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 102627
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/20170310_014020_resized-1.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 70336
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/06/marcos-marin.png",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 136866
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/artists_nh__0008_marcos-marin.png",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 42488
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/Adam-150cmx130..acrilic-on-canvas-2010..jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 131164
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/02/Marcos_Marin_Audrey_78cmx68cm_2010.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 127291
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/06/monalisa3dpress.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 48815
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2012/11/Marcos-Marin.-..Gina_......-160c-mx130cm..acrilic-on-canvas..jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 42031
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/Marcos_Marin_Marilyn_in_Red_Acrylic_canvas.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 137465
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/02/MarcosMarin-Elizabeth.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 243508
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/saverio-cecere-1.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 61564
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/06/S.-Cecere.NBT1_-2019-1.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 46372
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2023/01/Saverio-C.-Univectorial-37_2016n.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 52886
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/saverio-cecere-2.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 72172
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/06/Saverio-C.-Trans-Form-Cromia.ABTB_-2016-1.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 77459
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/saverio-cecere-3.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 58867
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/06/Saverio-C.NTB6_2018-1.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 34377
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2023/01/Artmiami2021-Durban-Segnini-Gallery.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 47391
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2023/01/Llafranc-Espana.-Ano-2015.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 184710
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2023/01/Prototipo-2019.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 32231
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2023/01/Puerta-Caracas.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 35835
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2023/01/Escultura-funcional-Aluminio-pintado.-Coleccion-privada.-Caracas-Venezuela..jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 143329
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2023/01/Coleccion-privada.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 158428
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2023/01/Escultura-monumental-Aluminio-pintado.-Valencia-Venezuela..jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 123820
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2023/01/Miami-FL-2016.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 198924
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2023/01/Prototipo-2020-b.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 28683
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2023/01/Puerta-Sin-titulo-2009.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 102507
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2023/01/Escultura-Plegado.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 99587
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2023/01/Obra-de-arte-funcional-Puerto-la-CruzVenezuela.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 124924
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2023/01/Prototipo-2020.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 33613
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2023/01/Ranchos-de-Chana-2014.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 35478
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2023/01/SERIE-PLEGADOS.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 61658
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2025/10/Untitled.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 367674
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2025/10/uyt3.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 339901
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2025/10/Itaca.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 375724
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2025/10/masa-2024.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 234470
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2025/10/Untitled2.png",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 332807
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/dario-perez-flores-prochromatique-1073.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 45304
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/mobil.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 44042
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/12/Prochromatique-blanc-wood-and-canvas-2016.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 64358
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/12/Prochromatique-yc1-canvas-2013.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 47090
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/12/Prochromatique-3-Box-with-40-colored-steel-bars-with-colord-back-2010.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 211268
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/prochromatic-b1012.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 23748
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/mobile-1975.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 37035
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2012/01/Prochromatic1070-120cmx30cm-a%C3%B1o-2011-scaled.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 316985
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/04/Dario-Perez-flores-1974-2005-Mobil-.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 10804
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/image001coleccion-galeria.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 35666
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/prochromatic.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 34602
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/04/Dario-Perez-Flores-Azul.1986.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 90403
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/12/Prochromatique-edition-Vertical-1-Canvas-with-steel-colored-steel-bars-2012.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 129454
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/12/Prochromatique-edition-vertical-2-Canvas-with-steel-colored-steel-bar-2012.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 110715
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2023/01/Blue-Fish-1993.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 245382
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2023/01/Maquette-Soccer.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 129788
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2023/01/Thinker-in-orange.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 15833
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2023/01/The-Fish.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 55436
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2023/01/Mr.-Bunny.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 40092
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2023/01/Mini-Thinker-scaled.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 121930
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2023/01/Skye-Blue.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 146416
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2023/01/Run-Free-at-Farm-49.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 80085
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2023/01/Go-Bongo-Blue.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 191457
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2023/01/Mr.-Bongo.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 48544
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2023/01/Bench-Bird-in-yellow-2017.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 23827
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2023/01/KICK-scaled.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 238161
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2023/01/Skye-Biker.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 68414
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2023/01/Double-Wheel-2014.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 48527
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2023/01/Music-Man.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 60854
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2023/01/Marathon-2011.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 26151
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2024/07/Luis-Gomez-Rincon-A-Scenography-of-displaceement.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 372842
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2023/12/Luis-Gomez-R.-title-Migratory-Connections__wood.-acrylic.-vinyl-2023-24x-7-2-jpg.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 33547
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2023/12/luis.Dharmastudio-33_websize.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 189924
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2023/12/luis-gomez-Property-Redoubts.-methacrylate-14x-142023-scaled.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 159816
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2024/07/Luis-Gomez-Rincon-Silhouettes-of-anonymity.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 278004
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2023/12/luisgomez-16_websize.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 131175
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2023/12/6-1.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 245824
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2024/07/Paul-amundarain-multiples-realidades-dia-y-noche.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 105159
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/09/barrier-azul-1.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 97083
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/09/PHOTO-2020-08-10-13-50-31.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 94316
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/09/Paul-A.-Barrier-Gold-lateral..jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 63275
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/09/life-painting-3.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 120669
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/09/Paul-A.-Barrier-curva-Instalation-Building.-2019.-scaled.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 103058
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/09/Paul-A.-Barrier-Gold.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 44121
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/09/life-painting.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 111258
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/09/barrier-azul-y-rojo.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 90958
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/09/PHOTO-2020-08-10-13-52-41.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 91561
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/09/P.A.-Barrier-Gold..jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 63201
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/06/speedy-graphito-Back-to-the-Future.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 121549
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/06/speddy_grafito_5.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 157003
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/06/speedy_graphito_art_therapy.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 96065
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/06/speedy_graphito_je_ne_regrette_rien.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 90675
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/06/speedy-graphitoDonald-Neon.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 117414
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/06/speddy_grafito_donald_neon.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 169413
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/06/speedy_graphito_street_fever.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 178448
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/07/Speedy-Graphito-Available-Works-NH.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 194243
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/06/speedy-graphito-Felix-Neon-Neon.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 99273
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/06/speddy_grafito_unlimited_art_school.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 98307
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/06/speedy_graphito_free_style.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 163385
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/07/Captura-de-Pantalla-2021-07-14-a-las-1.00.11-p.-m..png",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 154990
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/Carlos-Anzola.-Serie-Ofrendas.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 81683
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/Carlos-Anzola-2008.Polictico..jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 61923
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/Carlos-Anzola-Menu-Criollo-para-Lulu-an%CC%83o-2005-2007.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 137408
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2023/01/Carlos-Anzola-I.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 22969
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/Carlos-Anzola-Serie-Meaferro.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 108977
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/Carlos-Anzola.Dialogos-Nostalgicos.-Mixta-sobre-Madera-scaled.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 77941
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/Carlos-Anzola-Ofrendas.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 70265
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/Carlos-Anzola.Serie-Ofrendas-copy.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 108760
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/Carlos-Anzola-marco-de-botellas.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 99184
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/04/Carlos-Anzola.Dialogos-Nostalgicos-Ap-oyatemixta-sobre-madera.-an%CC%83o2000-scaled.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 75986
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2023/01/Carlos-Anzola_Caja-de-paso-scaled.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 350377
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2025/09/transparencia-verde.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 183689
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2025/07/Cubo-azul.png",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 54309
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2025/07/24x24-Amarillo.png",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 10244
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2025/07/24x24-Purpura.png",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 10712
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2025/07/24x24-Azul.png",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 10318
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2025/07/Oliva-Square-.png",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 33097
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2025/07/Planos-Dinamicos-1.png",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 33985
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/06/2017-3-ROGIER-VAN-DER-WEYDEN-Retrato-de-mujer-copia-1-1.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 101558
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/06/2010-7-NV-Las-hilanderas-Velazquez.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 94741
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/06/2008-18-LE-CHATEAU-DES-PYRENEES.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 60311
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/05/2011-dali_a_los_6_anos.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 86153
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/06/Lluis-Barba.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 94569
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/06/2009-7-Dama-Vermeer.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 61733
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/05/barab-feautured.jpeg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 29491
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/06/2010-5-ANTONELLO-DA-MESSINA.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 64074
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/06/2017-5-PETRUS-CHRISTUS-Retrato-de-una-joven-LINGOTES-copia.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 90554
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/06/11-2011-Ronda-de-noche-Rembrandt-copia.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 109148
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/06/2011-7-LECCION-DE-DANZA-DEGAS.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 77853
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/06/%E2%80%A22017-10-GOLCONDE-MAGRITTE-NINOSKA-.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 66320
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/10/Luz-Perez-Ojeda.-Lenticular-flip-3D_-53.5-by-42.-2016-gif.gif",
+      "reason": "gif remoto (posible lenticular animado)",
+      "bytes": 334757
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/10/The-2-faces-on-me90-x-90-cm-_2016.png",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 148109
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/10/Terra-Incognita-Lenticular-flip_121x-91-cm-2017..png",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 205439
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/10/Tranitorial-Being-lenticular-flip-3D_-121-x-91-cm-2016.png",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 228714
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/02/SUMMER-SOLSTICE_LENTICULAR-3D-PRINT-120X90CM.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 101362
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2018/08/The-impermanence_....100x120cm_Luz-Perez-Ojeda.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 129993
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/10/In-construction-of-the-self_-121-x-91-cm_-2017.png",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 93255
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/10/Adam-Eva-Lenticular-Photo-3D-flip.-2019.png",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 199532
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/10/Luz-P-O-Lenticular-flip-3D-_-121-x-91-cm-2016-1.png",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 186459
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/02/AUTUMNAL-EQUINOXLENTICULAR-3D-PRINT-120X90CM.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 137805
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/02/WINTER-SOLSTICE-LENTICULAR-3D-PRINT-120X90CM.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 108961
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/10/Luz-Perez-Ojeda-CHORE%CC%81O-GRAPHY_90X90CM_LENTICULAR_LPEREZOJEDA.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 57892
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/10/Not-Equal-80-x-80-cm-2016..png",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 140525
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/10/3-Continents-Lenticular-flip-3D-90-x-90-cm-_2017..png",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 157241
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/10/Modern-Times-lenticular-flip-3D90-x-60-cm-2019..png",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 177336
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/10/The-Amazons-on-Fire-1_3-90-cm-x-60-cm-2019..png",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 219619
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/02/SPRING-EQUINOX-LENTICULAR-3D-PRINT-120X90CM.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 82788
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2025/07/Yellow-Cube-36-x36-inches-Acrylic-on-canvas-2020.png",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 79840
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2025/07/Yellow-Red-24-x36-inches-Acrylic-on-canvas-2019.png",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 61968
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2025/07/Kube-P10-Serie-Personality-24-x24-inches-Vinyl-on-wood-2016.png",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 93932
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2025/07/IMG_0070-1.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 20892
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2025/07/Red-Write-Cube-24-x24-inches-Acrylic-on-canvas-2018.png",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 56331
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2025/07/Yellow-Green-Purple-24-x36-inches-Acrylic-on-canvas-2019.png",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 41964
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2025/07/Yellow-Purple-24-x36-inches-Acrylic-on-canvas-2019.png",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 81237
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2025/07/Kube-P23-Serie-Personality-24-x24-inches-Vinyl-on-wood-2016.png",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 349502
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2025/07/Red-Yellow-24-x36-inches-Acrylic-on-canvas-2019.png",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 43240
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2025/07/Red-Blue-24-x36-inches-Acrylic-on-canvas-2019.png",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 36336
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2025/07/Green-Cube-36-x-36-inches-Acrylic-on-canvas-2019.png",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 87372
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2025/07/Rafael-Montilla-art.png",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 329425
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/01/On-the-Line.Linescape-Series.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 22756
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/01/Wiind-trail-view.Instalation.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 38292
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/01/Converge-Aluminum.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 56052
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/01/Flying-Away.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 29192
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/01/Falling-Petals-on-bleu-wall.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 29702
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/01/Valeria-Yamamoto-Alight-2016-Steel-cement-rotated.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 30774
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/01/Valeria-yamamoto-Sleeping-Waters.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 41776
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/01/seawhisper.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 80032
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/01/Valeria-Yamamoto..jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 29175
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/01/Bakehouse-Art-Complex-Valeria-Yamamoto.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 61192
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/01/Converge-View.-Installation..jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 92898
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/01/Installation.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 122780
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/01/Valeria-Yamamoto-at-the-gallery-rotated.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 55568
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/01/Valeria-Yamamoto-Alight-Sculpture-rotated.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 30123
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/01/Stillnes.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 65760
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/01/Water-Sleeping.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 35689
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/01/Composition-Xll-Xlll.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 17874
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/01/Falling-Petals.Installation-on-white.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 21323
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/01/Linescape_detail.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 15390
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/01/V.Yamamoto.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 32866
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/01/Valeria-Yamamoto-Working-process..jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 47800
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/01/mario-villasierra.nh-galleryjpg.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 41567
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/06/Mario-Villasierra-nh.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 52931
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/01/Alaska-67x25x18cm-M.Villasierra.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 37201
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/01/Atlantis-63x23x17cm.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 23117
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/02/mario-villasierra-phantom.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 111554
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/01/mario-villasierra-agradecido.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 27508
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/01/mario-villasierra-gorrion-rojo.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 28124
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/01/Brocken-Heart-63x23x17cm.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 35109
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/02/mario-villasierra-evolucion.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 56850
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/02/mario-villasierra-habana.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 25750
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/01/mario-villasierra-copacabana.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 21492
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/01/mario-villasierra-instrumento-suizo.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 36476
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/01/Fragile-57x25x18cm.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 35091
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/02/mario-villasierra-ghost.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 124263
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/02/mario-villasierra-daytona.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 88295
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/02/mario-villasierra-los-dos-mundos-de-mickey.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 137102
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/01/mario-villasierra-amazonia.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 34650
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/01/mario-villasierra-talisman.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 31846
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2026/03/mail.jpeg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 331585
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2024/10/DIAF2.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 179745
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2024/09/mifa2-.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 61740
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2024/02/redeficion-del-cuadrado.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 141311
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2024/02/state-of-grace-marcos-marin.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 169170
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2023/12/NH-Gallery-Exhibition-Invitation-N.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 127065
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2023/03/women-of-vision-nh.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 125192
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/04/D.-Perez-flores-mobil-2012..jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 59588
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/04/Dario-80-x-80-cm-2013-Prochromatic-1108.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 29748
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/04/Dario-Perez-flores-1974-Mobil-.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 10804
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/04/mobil-62cmx-63.2cm-x-9-cm-2008-.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 29147
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/04/Prochomatic-1035.-30x30x4-scaled.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 327411
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/04/Prochromatic-1071-Dario-P-F-scaled.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 296283
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/04/abstraction-exhib.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 89490
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/09/four-cuban-a.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 105259
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/04/Jose-Bedia_-Loma-Matari.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 66484
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/04/Carlos-Estevez-Intercambios-de-miradas-2015.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 142054
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/04/humberto-castro-elguardian.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 47480
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2022/04/ernestofernandez-en-dior-confiamos.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 63363
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/07/1ra-foto.-rotated.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 84749
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/07/1-A-foto2-rotated.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 89775
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/07/2da.-rotated.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 108154
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/07/3ra-foto..jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 67195
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/07/4ta.-foto1.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 123232
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/07/6ta.-foto.-1-rotated.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 69034
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/07/7ma.foto_.-1-rotated.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 76927
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/07/8va.foto_.-rotated.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 83894
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/07/9na-fot-rotated.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 108572
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/07/10ma-foto.1-rotated.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 112687
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/07/11-foto-rotated.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 74998
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/07/12-foto.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 141972
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/07/5ta-foto.-1-rotated.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 120092
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/07/13.-foto-1-rotated.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 111648
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/07/15-foto.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 154984
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/07/16-foto..1.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 152898
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/07/peoplecomefirs.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 40395
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/07/restricted.jpeg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 52741
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/07/Alice-Neel-The-Human-Comedy.-1-rotated.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 63078
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/07/Andy-for-Alice-Neel-4-Alice.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 52350
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/07/tumblr_onnaglGbph1qfcut3o1_500.jpeg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 48275
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/07/3012229836_f46063f31a_b.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 84674
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/07/alice-neel-self-portrait-1.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 89611
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/07/Little-Island-New-York..jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 104996
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/06/street-art.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 133422
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/06/horses-for-dads.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 70810
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/05/art-in-motion.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 74278
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/04/feeling-the-contemporary-art2.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 100916
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/03/art-in-motion2.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 67934
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/02/contemoporary-art-vision2.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 98746
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/02/IMG_3415.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 47237
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/02/IMG_3386.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 96885
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/02/IMG_3681.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 49866
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/02/IMG_3680.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 75088
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/02/IMG_3597.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 64090
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/02/IMG_3595-1.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 59507
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/02/IMG_3593.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 54913
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/02/IMG_3499.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 46024
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/02/IMG_3475.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 77994
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/02/IMG_3690.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 39503
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/02/IMG_3691.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 75293
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/02/IMG_3689-rotated.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 51188
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/12/art-in-motion-cordialy.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 136662
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/12/ANTONIO-BACHOUR.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 68390
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/12/image.png",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 145105
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/10/live-art-studios.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 74408
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/11/IMG_2254.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 69637
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/09/DailyMetal_Lluis_Barba_10-scaled.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 108493
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/09/DailyMetal_Lluis_Barba_10.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 343293
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2021/07/Captura-de-Pantalla-2020-09-17-a-las-12.10.51-p.-m.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 126947
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/09/2020-12-2017-Portrait-of-a-Young-Woman-Van-der-Weydens-con-mascarilla-.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 83406
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/08/cruz-diez-nh-gallery.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 45775
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/08/4-crosswalks-N.H.-at-Coral-Gables-Museum.-1.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 268022
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/08/Foto-Constanza-Profeta.Foto-N.-6-Nov.2019-rotated.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 75090
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/08/Pasos-peatonales-Coral-G.-2017..jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 93237
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/08/soto1.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 57283
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/09/Genesis-A.-A.-Soto..jpeg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 93769
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/09/SOTO-AT-GENESIS-OPENING-NIGHT.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 80042
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/09/Genesis-1.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 93871
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/09/Expo-Soto-Bilbao-2019.-.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 96631
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/06/mirrors-of-time-ce-.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 162528
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/06/Ballet-onirico-V.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 59430
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/06/Ballet-onirico-I.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 92255
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/06/Intercambios-de-miradas.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 129415
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/05/IMG_9416-1.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 73099
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/05/DeniseRene3.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 61568
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/05/DeniseRene2.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 47213
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2020/05/IMG_9604-1.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 58168
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2018/12/the-moon-in-the-mirror.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 84381
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2018/12/be0835de-554a-4d2b-a20d-5156b6804cf7.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 102699
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2018/12/NH-GuidedVisit.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 36976
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2018/12/IMG_8457-1-scaled.jpeg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 82372
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2018/12/IMG_8448-1-scaled.jpeg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 66897
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2018/12/IMG_8483-1-scaled.jpeg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 71878
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2018/12/IMG_8512-1-e1544028829659-scaled.jpeg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 81176
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2018/12/IMG_8486-scaled.jpeg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 69318
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2018/12/IMG_8481web.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 121200
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2018/12/IMG_8495-web.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 139358
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2018/10/tomas-sanchez-ex2.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 76279
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2018/10/FullSizeRender-2.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 61403
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2018/09/inspired-by-coral.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 214362
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2018/09/Ninoska-Huerta-Coral-Gables-Colors-7.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 63049
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2018/09/DRAWING.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 56363
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2018/09/Lemmerman_Merrick_2008.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 111839
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2018/09/Thomas-Spain.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 193698
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2018/09/Victor-Deupi.jpeg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 121850
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2018/09/Carlos-Barbon.jpeg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 60839
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2018/09/IMG_0348-scaled.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 39962
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2018/09/IMG_0356-scaled.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 61235
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2018/09/IMG_0354-1-scaled.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 79701
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2018/09/IMG_0361-scaled.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 87421
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2018/08/carol-demian.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 140803
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2018/08/IMG_4078.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 57962
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2018/08/IMG_4056-e1535751730349.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 35689
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2018/08/IMG_4108.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 63381
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2018/08/IMG_4001-1.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 58747
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2018/08/IMG_4005.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 53521
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2018/08/IMG_4068.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 60898
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2018/08/IMG_4022.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 50027
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2018/08/saul-galaviz-1.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 65941
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2018/08/saulg-1-e1535730898957.jpeg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 10564
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2018/08/IMG_4535.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 47466
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2018/08/IMG_5678-rotated.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 15870
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2018/08/IMG_5679-rotated.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 15304
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2018/08/IMG_5680.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 22672
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2018/08/new-proposals-2.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 121010
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2018/08/The-2-faces-of-me_90x90cm_Flip-3D-Lenticular-print_2017.png",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 91919
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2018/08/Not-equal-but-different_2013_80X80cm_Flip-lenticulaire-3D.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 163077
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2018/08/IMG_0219-2-scaled.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 41598
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2018/08/IMG_5697-1.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 40620
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2018/08/IMG_5698-2.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 42480
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2018/08/Exhibit-08.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 44907
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2018/08/IMG_5698.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 42480
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2018/08/IMG_5662.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 32638
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2018/08/Exhibit-13.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 44784
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2018/08/Exhibit-06.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 46252
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/11/IMG_0065.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 181625
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/11/CD-CG2.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 94012
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/11/CD-CG1.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 99002
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/11/IMG_0058-1.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 128188
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/11/IMG_0057.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 150792
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/11/IMG_0061.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 111492
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/11/IMG_0053.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 123419
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/11/IMG_0063.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 157527
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/11/ninoska-huerta-and-Raul-valdes-fauli-copy.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 81246
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/11/20171119_073222-1-scaled.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 97018
+    },
+    {
+      "url": "https://ninoskahuertagallery.com/wp-content/uploads/2017/05/recent-works-paul-a.jpg",
+      "reason": "fuera del grupo prioritario; sigue en el WordPress de origen",
+      "bytes": 120913
+    }
+  ],
+  "counts": {
+    "unique": 561,
+    "local": 91,
+    "remote": 470
+  }
+}
